@@ -1,2 +1,2 @@
-# cs145
+# CS 145 GRCC
 CS 145 at GRCC
