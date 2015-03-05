@@ -1,3 +1,5 @@
+import java.util.List;
+
 /**
  * This class transforms Grammar rules into Random sentences.
  *
@@ -22,5 +24,7 @@
  */
 public class AnagramSolver {
 
+    public AnagramSolver (List<String> dictionary){
 
+    }
 }
