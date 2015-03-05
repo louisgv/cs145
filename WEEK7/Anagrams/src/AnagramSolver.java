@@ -30,7 +30,6 @@ public class AnagramSolver {
 
     /**
      * Constructor, given a list, Initialize the dictionary
-     *
      * @param dictionary List of words
      * @throws IllegalArgumentException If Dictionary is Empty
      */
@@ -43,28 +42,52 @@ public class AnagramSolver {
     }
 
     public void debugLog(Object o){
-        System.out.println(o.toString());
+        if(o!= null)
+            System.out.println(o.toString());
     }
 
-    // Play around with passed string
-    public void tli(String s){
-        LetterInventory sli = new LetterInventory(s);
-        Stack<String> ew = new Stack<String>();
+    /**
+     * Extract words found from the given String into a Stack
+     * @param s         String to Extract word
+     */
+    public void extractWords(String s){
+        LetterInventory sLi = new LetterInventory(s);
 
-        for (String w: dictionary) {
-            debugLog(w);
+        Stack<String> sWs = new Stack<String>();
 
-            LetterInventory newLi = new LetterInventory(w);
-
-            LetterInventory pli = sli.subtract(newLi);
-
-            if (pli != null && pli.size() !=  sli.size()){
-                ew.push(w);
+        for (String word : dictionary) {
+            // Extract a Letter inventory from word
+            LetterInventory wordLi = new LetterInventory(word);
+            // Extract a Letter inventory of letters not in passed string
+            LetterInventory pLi = sLi.subtract(wordLi);
+            // If extracted inventory is not null || the subtraction was a success
+            if (pLi != null){
+                sWs.push(word);
             }
         }
-        debugLog(ew);
+        debugLog(sWs);
+        while (!sWs.isEmpty()) {
+            wm(sWs.pop(), s);
+        }
     }
 
+    public void wm(String sFs, String sR){
+        LetterInventory sLi = new LetterInventory(sR);
+
+        LetterInventory sFsLi = new LetterInventory(sFs);
+        LetterInventory pLi = sLi;
+        while (pLi != null){
+            debugLog(sR);
+
+            pLi = pLi.subtract(sLi);
+        }
+    }
+
+    public void print(String s, int max) {
+
+
+
+    }
 
 /*
     private Stack<String> backtrack(String newWords) {
@@ -103,7 +126,4 @@ public class AnagramSolver {
         }
     }*/
 
-    public void print(String s, int max) {
-
-    }
 }
