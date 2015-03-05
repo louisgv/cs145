@@ -11,6 +11,25 @@ import java.util.*;
 
 public class AnagramMain {
     public static void main(String[] args) throws FileNotFoundException {
+        Scanner input = new Scanner(new File("dict0.txt"));
+
+        List<String> dictionary = new ArrayList<String>();
+
+        while (input.hasNextLine())
+            dictionary.add(input.nextLine());
+
+        List<String> dictionary2 = Collections.unmodifiableList(dictionary);
+
+        AnagramSolver solver = new AnagramSolver(dictionary2);
+
+        String phrase = "george bush";
+
+        solver.tli();
+
+        solver.tli(phrase);
+    }
+
+    void firstMain() throws FileNotFoundException {
         System.out.println("Welcome to the cse143 anagram solver.");
         System.out.println();
 
@@ -42,4 +61,5 @@ public class AnagramMain {
             }
         }
     }
+
 }
