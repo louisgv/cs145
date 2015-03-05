@@ -1,0 +1,45 @@
+0.09 A 5 NATURAL false
+0.18 B 5 NATURAL false
+0.27 C 5 NATURAL false
+0.36 D 5 NATURAL false
+0.45 E 5 NATURAL false
+0.54 F 5 NATURAL false
+0.63 G 5 NATURAL false
+0.72 R true
+0.81 G 5 NATURAL false
+0.90 F 5 NATURAL false
+0.99 G 5 NATURAL false
+0.90 C 5 NATURAL false
+0.81 G 5 NATURAL false
+0.72 F 5 NATURAL false
+0.63 E 5 NATURAL false
+0.54 D 5 NATURAL false
+0.45 C 5 NATURAL false
+0.36 B 5 NATURAL false
+0.27 A 5 NATURAL false
+0.18 A 5 NATURAL false
+0.09 R true
+0.99 G 5 NATURAL false
+0.90 D 5 NATURAL false
+0.81 G 5 NATURAL false
+0.72 F 5 NATURAL false
+0.63 E 5 NATURAL false
+0.54 D 5 NATURAL false
+0.45 C 5 NATURAL false
+0.36 B 5 NATURAL false
+0.27 A 5 NATURAL false
+0.09 R true
+0.18 A 5 NATURAL false
+0.27 B 5 NATURAL false
+0.36 C 5 NATURAL false
+0.45 D 5 NATURAL false
+0.54 E 5 NATURAL false
+0.63 F 5 NATURAL false
+0.72 G 5 NATURAL false
+0.36 R true
+0.54 D 5 NATURAL false
+0.63 E 5 NATURAL false
+0.72 F 4 SHARP true
+0.81 A 4 FLAT  false
+0.90 C 3 SHARP false
+0.99 R true

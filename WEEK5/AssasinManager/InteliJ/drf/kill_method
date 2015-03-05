@@ -1,0 +1,27 @@
+
+
+            if (tempAssassin != null && tempAssassin.next != null && tempAssassin.next.next == null){
+                frontGraveyard.killer = frontAssassin.name;
+
+                tempAssassin.next = frontAssassin;
+            }
+
+            if (tempAssassin != null && tempAssassin.next != null) {
+                frontGraveyard = new AssassinNode(tempAssassin.next.name, frontGraveyard);
+
+                frontGraveyard.killer = name;
+
+                tempAssassin.next = tempAssassin.next.next;
+            } else {
+                throw new IllegalArgumentException("Nobody named " + name);
+            }
+            if (tempAssassin.next == null){
+                tempAssassin.next = frontAssassin;
+            }
+            System.out.println(frontAssassin.name);
+            System.out.println(frontAssassin.next.name);
+            System.out.println(frontAssassin.next.next.name);
+
+
+
+

@@ -1,0 +1,128 @@
+Current kill ring:
+  Erica Kane is stalking Ruth Martin
+  Ruth Martin is stalking Jackson Montgomery
+  Jackson Montgomery is stalking Bobby Warner
+  Bobby Warner is stalking Joe Martin
+  Joe Martin is stalking Anita Santos
+  Anita Santos is stalking Tad Martin
+  Tad Martin is stalking Phoebe Wallingford
+  Phoebe Wallingford is stalking Erica Kane
+Current graveyard:
+
+next victim? Ruth Martin
+
+Current kill ring:
+  Erica Kane is stalking Jackson Montgomery
+  Jackson Montgomery is stalking Bobby Warner
+  Bobby Warner is stalking Joe Martin
+  Joe Martin is stalking Anita Santos
+  Anita Santos is stalking Tad Martin
+  Tad Martin is stalking Phoebe Wallingford
+  Phoebe Wallingford is stalking Erica Kane
+Current graveyard:
+  Ruth Martin was killed by Erica Kane
+
+next victim? Ruth Martin
+Ruth Martin is already dead.
+
+Current kill ring:
+  Erica Kane is stalking Jackson Montgomery
+  Jackson Montgomery is stalking Bobby Warner
+  Bobby Warner is stalking Joe Martin
+  Joe Martin is stalking Anita Santos
+  Anita Santos is stalking Tad Martin
+  Tad Martin is stalking Phoebe Wallingford
+  Phoebe Wallingford is stalking Erica Kane
+Current graveyard:
+  Ruth Martin was killed by Erica Kane
+
+next victim? bobby warner
+
+Current kill ring:
+  Erica Kane is stalking Jackson Montgomery
+  Jackson Montgomery is stalking Joe Martin
+  Joe Martin is stalking Anita Santos
+  Anita Santos is stalking Tad Martin
+  Tad Martin is stalking Phoebe Wallingford
+  Phoebe Wallingford is stalking Erica Kane
+Current graveyard:
+  Bobby Warner was killed by Jackson Montgomery
+  Ruth Martin was killed by Erica Kane
+
+next victim? ERICa kaNE
+
+Current kill ring:
+  Jackson Montgomery is stalking Joe Martin
+  Joe Martin is stalking Anita Santos
+  Anita Santos is stalking Tad Martin
+  Tad Martin is stalking Phoebe Wallingford
+  Phoebe Wallingford is stalking Jackson Montgomery
+Current graveyard:
+  Erica Kane was killed by Phoebe Wallingford
+  Bobby Warner was killed by Jackson Montgomery
+  Ruth Martin was killed by Erica Kane
+
+next victim? ANITA SANTOS
+
+Current kill ring:
+  Jackson Montgomery is stalking Joe Martin
+  Joe Martin is stalking Tad Martin
+  Tad Martin is stalking Phoebe Wallingford
+  Phoebe Wallingford is stalking Jackson Montgomery
+Current graveyard:
+  Anita Santos was killed by Joe Martin
+  Erica Kane was killed by Phoebe Wallingford
+  Bobby Warner was killed by Jackson Montgomery
+  Ruth Martin was killed by Erica Kane
+
+next victim? phoebe wallingford
+
+Current kill ring:
+  Jackson Montgomery is stalking Joe Martin
+  Joe Martin is stalking Tad Martin
+  Tad Martin is stalking Jackson Montgomery
+Current graveyard:
+  Phoebe Wallingford was killed by Tad Martin
+  Anita Santos was killed by Joe Martin
+  Erica Kane was killed by Phoebe Wallingford
+  Bobby Warner was killed by Jackson Montgomery
+  Ruth Martin was killed by Erica Kane
+
+next victim? Barack Obama
+Unknown person.
+
+Current kill ring:
+  Jackson Montgomery is stalking Joe Martin
+  Joe Martin is stalking Tad Martin
+  Tad Martin is stalking Jackson Montgomery
+Current graveyard:
+  Phoebe Wallingford was killed by Tad Martin
+  Anita Santos was killed by Joe Martin
+  Erica Kane was killed by Phoebe Wallingford
+  Bobby Warner was killed by Jackson Montgomery
+  Ruth Martin was killed by Erica Kane
+
+next victim? Joe Martin
+
+Current kill ring:
+  Jackson Montgomery is stalking Tad Martin
+  Tad Martin is stalking Jackson Montgomery
+Current graveyard:
+  Joe Martin was killed by Jackson Montgomery
+  Phoebe Wallingford was killed by Tad Martin
+  Anita Santos was killed by Joe Martin
+  Erica Kane was killed by Phoebe Wallingford
+  Bobby Warner was killed by Jackson Montgomery
+  Ruth Martin was killed by Erica Kane
+
+next victim? jackson montgomery
+
+Game was won by Tad Martin
+Final graveyard is as follows:
+  Jackson Montgomery was killed by Tad Martin
+  Joe Martin was killed by Jackson Montgomery
+  Phoebe Wallingford was killed by Tad Martin
+  Anita Santos was killed by Joe Martin
+  Erica Kane was killed by Phoebe Wallingford
+  Bobby Warner was killed by Jackson Montgomery
+  Ruth Martin was killed by Erica Kane

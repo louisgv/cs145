@@ -1,0 +1,157 @@
+
+
+    /**
+     * Play method which accept a queue of node
+     * @param tempQueue     Queue of Node to Play
+     */
+    private void play (Queue<Note> tempQueue){
+        while (!tempQueue.isEmpty()){
+            if (tempQueue.peek().isRepeat()){
+                Queue<Note> repeatQueue = new LinkedList<Note>();
+                do {
+                    repeatQueue.add(tempQueue.peek());
+                    tempQueue.remove().play();
+                } while (!tempQueue.peek().isRepeat());
+                repeatQueue.add(tempQueue.peek());
+
+                while (!repeatQueue.isEmpty()){
+                    tempQueue.peek().play();
+
+                }
+            } else {
+                tempQueue.remove().play();
+            }
+        }
+    }
+
+
+    private void play (Queue<Note> tempQueue, boolean repeating){
+            boolean repeated = false; // Repeated trigger for Recursive Check
+
+            while (!tempQueue.isEmpty()){
+                if (tempQueue.peek().isRepeat()){
+                    if (repeating){
+                        tempQueue.remove().play();
+
+                        System.out.println("Looping..");
+
+                        return;                 // Return to the current Run
+                    } else if (repeated) {
+
+                        System.out.println("Escape loop");
+
+                        repeated = false;       // Toggle the repeated Trigger
+                    } else {
+                        Queue<Note> repeatQueue = new LinkedList<Note>(tempQueue);
+
+                        repeatQueue.remove().play();
+
+                        play(repeatQueue, (repeated = true));   // 1st repeat
+
+                        System.out.println("Repeating...");
+
+                    }
+                } else {
+                    tempQueue.remove().play();
+                    System.out.println("Playing..");
+                }
+            }
+        }
+
+           private void play (Queue<Note> tempQueue, boolean repeating){
+                while (!tempQueue.isEmpty()){
+                    if (tempQueue.peek().isRepeat() && (!repeating)) {
+                        Queue<Note> repeatQueue = new LinkedList<Note>();
+
+                        repeatQueue.add(tempQueue.remove());
+
+                        while (!tempQueue.peek().isRepeat()) {
+                            if (!tempQueue.isEmpty()) {
+                                    repeatQueue.add(tempQueue.remove());
+                            }
+                        }
+
+                        if (!tempQueue.isEmpty()) {
+                            repeatQueue.add(tempQueue.remove());
+                        }
+
+                        play(repeatQueue, true);   // 1st repeat
+                    } else {
+                        tempQueue.remove().play();
+                    }
+                }
+            }
+        }
+
+
+        0.2 C 4 NATURAL false
+
+        0.4 F 4 NATURAL true
+        0.2 F 4 NATURAL false
+        0.4 G 4 NATURAL false
+        0.2 G 4 NATURAL true
+
+        0.2 A 4 NATURAL false
+        0.4 R false
+        0.2 C 5 NATURAL false
+        0.2 A 4 NATURAL false
+
+        0.2 C 4 NATURAL false
+
+        0.4 F 4 NATURAL false
+        0.2 F 4 NATURAL false
+        0.4 G 4 NATURAL false
+        0.2 G 4 NATURAL false
+        0.4 F 4 NATURAL false
+        0.2 F 4 NATURAL false
+        0.4 G 4 NATURAL false
+        0.2 G 4 NATURAL false
+
+        0.2 A 4 NATURAL false
+        0.4 R false
+        0.2 C 5 NATURAL false
+
+
+
+0.09 A 5 NATURAL false
+0.18 B 5 NATURAL true
+0.27 C 5 NATURAL false
+0.36 D 5 NATURAL true
+0.45 E 5 NATURAL false
+0.54 F 5 NATURAL false
+0.63 G 5 NATURAL false
+0.72 R true
+0.81 G 5 NATURAL false
+0.90 D 5 NATURAL false
+0.99 G 5 NATURAL false
+0.90 D 5 NATURAL false
+0.81 G 5 NATURAL false
+0.72 F 5 NATURAL false
+0.63 E 5 NATURAL false
+0.54 D 5 NATURAL false
+0.45 C 5 NATURAL false
+0.36 B 5 NATURAL false
+0.27 A 5 NATURAL false
+0.18 A 5 NATURAL false
+0.09 R true
+0.99 G 5 NATURAL false
+0.90 D 5 NATURAL false
+0.81 G 5 NATURAL false
+0.72 F 5 NATURAL false
+0.63 E 5 NATURAL false
+0.54 D 5 NATURAL false
+0.45 C 5 NATURAL false
+0.36 B 5 NATURAL false
+0.27 A 5 NATURAL false
+0.09 R true
+0.18 A 5 NATURAL false
+0.27 A 5 NATURAL false
+0.36 B 5 NATURAL false
+0.45 C 5 NATURAL false
+0.54 D 5 NATURAL false
+0.63 E 5 NATURAL false
+0.72 F 5 NATURAL false
+0.36 B 5 NATURAL false
+0.54 D 5 NATURAL false
+0.63 E 5 NATURAL false
+0.09 R true

@@ -1,0 +1,207 @@
+Current kill ring:
+  Linus Torvalds is stalking Bill Gates
+  Bill Gates is stalking Don Knuth
+  Don Knuth is stalking Alan Turing
+  Alan Turing is stalking Tim Berners-Lee
+  Tim Berners-Lee is stalking Alan Kay
+  Alan Kay is stalking Charles Babbage
+  Charles Babbage is stalking John von Neumann
+  John von Neumann is stalking Ada Lovelace
+  Ada Lovelace is stalking Alonzo Church
+  Alonzo Church is stalking Grace Hopper
+  Grace Hopper is stalking Linus Torvalds
+Current graveyard:
+
+next victim? Bill Gates
+
+Current kill ring:
+  Linus Torvalds is stalking Don Knuth
+  Don Knuth is stalking Alan Turing
+  Alan Turing is stalking Tim Berners-Lee
+  Tim Berners-Lee is stalking Alan Kay
+  Alan Kay is stalking Charles Babbage
+  Charles Babbage is stalking John von Neumann
+  John von Neumann is stalking Ada Lovelace
+  Ada Lovelace is stalking Alonzo Church
+  Alonzo Church is stalking Grace Hopper
+  Grace Hopper is stalking Linus Torvalds
+Current graveyard:
+  Bill Gates was killed by Linus Torvalds
+
+next victim? Bill Gates
+Bill Gates is already dead.
+
+Current kill ring:
+  Linus Torvalds is stalking Don Knuth
+  Don Knuth is stalking Alan Turing
+  Alan Turing is stalking Tim Berners-Lee
+  Tim Berners-Lee is stalking Alan Kay
+  Alan Kay is stalking Charles Babbage
+  Charles Babbage is stalking John von Neumann
+  John von Neumann is stalking Ada Lovelace
+  Ada Lovelace is stalking Alonzo Church
+  Alonzo Church is stalking Grace Hopper
+  Grace Hopper is stalking Linus Torvalds
+Current graveyard:
+  Bill Gates was killed by Linus Torvalds
+
+next victim? Alan Turing
+
+Current kill ring:
+  Linus Torvalds is stalking Don Knuth
+  Don Knuth is stalking Tim Berners-Lee
+  Tim Berners-Lee is stalking Alan Kay
+  Alan Kay is stalking Charles Babbage
+  Charles Babbage is stalking John von Neumann
+  John von Neumann is stalking Ada Lovelace
+  Ada Lovelace is stalking Alonzo Church
+  Alonzo Church is stalking Grace Hopper
+  Grace Hopper is stalking Linus Torvalds
+Current graveyard:
+  Alan Turing was killed by Don Knuth
+  Bill Gates was killed by Linus Torvalds
+
+next victim? LInUS TOrVALdS
+
+Current kill ring:
+  Don Knuth is stalking Tim Berners-Lee
+  Tim Berners-Lee is stalking Alan Kay
+  Alan Kay is stalking Charles Babbage
+  Charles Babbage is stalking John von Neumann
+  John von Neumann is stalking Ada Lovelace
+  Ada Lovelace is stalking Alonzo Church
+  Alonzo Church is stalking Grace Hopper
+  Grace Hopper is stalking Don Knuth
+Current graveyard:
+  Linus Torvalds was killed by Grace Hopper
+  Alan Turing was killed by Don Knuth
+  Bill Gates was killed by Linus Torvalds
+
+next victim? ALAN KAY
+
+Current kill ring:
+  Don Knuth is stalking Tim Berners-Lee
+  Tim Berners-Lee is stalking Charles Babbage
+  Charles Babbage is stalking John von Neumann
+  John von Neumann is stalking Ada Lovelace
+  Ada Lovelace is stalking Alonzo Church
+  Alonzo Church is stalking Grace Hopper
+  Grace Hopper is stalking Don Knuth
+Current graveyard:
+  Alan Kay was killed by Tim Berners-Lee
+  Linus Torvalds was killed by Grace Hopper
+  Alan Turing was killed by Don Knuth
+  Bill Gates was killed by Linus Torvalds
+
+next victim? grace hopper
+
+Current kill ring:
+  Don Knuth is stalking Tim Berners-Lee
+  Tim Berners-Lee is stalking Charles Babbage
+  Charles Babbage is stalking John von Neumann
+  John von Neumann is stalking Ada Lovelace
+  Ada Lovelace is stalking Alonzo Church
+  Alonzo Church is stalking Don Knuth
+Current graveyard:
+  Grace Hopper was killed by Alonzo Church
+  Alan Kay was killed by Tim Berners-Lee
+  Linus Torvalds was killed by Grace Hopper
+  Alan Turing was killed by Don Knuth
+  Bill Gates was killed by Linus Torvalds
+
+next victim? John McAfee
+Unknown person.
+
+Current kill ring:
+  Don Knuth is stalking Tim Berners-Lee
+  Tim Berners-Lee is stalking Charles Babbage
+  Charles Babbage is stalking John von Neumann
+  John von Neumann is stalking Ada Lovelace
+  Ada Lovelace is stalking Alonzo Church
+  Alonzo Church is stalking Don Knuth
+Current graveyard:
+  Grace Hopper was killed by Alonzo Church
+  Alan Kay was killed by Tim Berners-Lee
+  Linus Torvalds was killed by Grace Hopper
+  Alan Turing was killed by Don Knuth
+  Bill Gates was killed by Linus Torvalds
+
+next victim? Ada Lovelace
+
+Current kill ring:
+  Don Knuth is stalking Tim Berners-Lee
+  Tim Berners-Lee is stalking Charles Babbage
+  Charles Babbage is stalking John von Neumann
+  John von Neumann is stalking Alonzo Church
+  Alonzo Church is stalking Don Knuth
+Current graveyard:
+  Ada Lovelace was killed by John von Neumann
+  Grace Hopper was killed by Alonzo Church
+  Alan Kay was killed by Tim Berners-Lee
+  Linus Torvalds was killed by Grace Hopper
+  Alan Turing was killed by Don Knuth
+  Bill Gates was killed by Linus Torvalds
+
+next victim? Alonzo Church
+
+Current kill ring:
+  Don Knuth is stalking Tim Berners-Lee
+  Tim Berners-Lee is stalking Charles Babbage
+  Charles Babbage is stalking John von Neumann
+  John von Neumann is stalking Don Knuth
+Current graveyard:
+  Alonzo Church was killed by John von Neumann
+  Ada Lovelace was killed by John von Neumann
+  Grace Hopper was killed by Alonzo Church
+  Alan Kay was killed by Tim Berners-Lee
+  Linus Torvalds was killed by Grace Hopper
+  Alan Turing was killed by Don Knuth
+  Bill Gates was killed by Linus Torvalds
+
+next victim? john von neumann
+
+Current kill ring:
+  Don Knuth is stalking Tim Berners-Lee
+  Tim Berners-Lee is stalking Charles Babbage
+  Charles Babbage is stalking Don Knuth
+Current graveyard:
+  John von Neumann was killed by Charles Babbage
+  Alonzo Church was killed by John von Neumann
+  Ada Lovelace was killed by John von Neumann
+  Grace Hopper was killed by Alonzo Church
+  Alan Kay was killed by Tim Berners-Lee
+  Linus Torvalds was killed by Grace Hopper
+  Alan Turing was killed by Don Knuth
+  Bill Gates was killed by Linus Torvalds
+
+next victim? don knuth
+
+Current kill ring:
+  Tim Berners-Lee is stalking Charles Babbage
+  Charles Babbage is stalking Tim Berners-Lee
+Current graveyard:
+  Don Knuth was killed by Charles Babbage
+  John von Neumann was killed by Charles Babbage
+  Alonzo Church was killed by John von Neumann
+  Ada Lovelace was killed by John von Neumann
+  Grace Hopper was killed by Alonzo Church
+  Alan Kay was killed by Tim Berners-Lee
+  Linus Torvalds was killed by Grace Hopper
+  Alan Turing was killed by Don Knuth
+  Bill Gates was killed by Linus Torvalds
+
+next victim? Tim Berners-Lee
+
+Game was won by Charles Babbage
+Final graveyard is as follows:
+  Tim Berners-Lee was killed by Charles Babbage
+  Don Knuth was killed by Charles Babbage
+  John von Neumann was killed by Charles Babbage
+  Alonzo Church was killed by John von Neumann
+  Ada Lovelace was killed by John von Neumann
+  Grace Hopper was killed by Alonzo Church
+  Alan Kay was killed by Tim Berners-Lee
+  Linus Torvalds was killed by Grace Hopper
+  Alan Turing was killed by Don Knuth
+  Bill Gates was killed by Linus Torvalds
+  

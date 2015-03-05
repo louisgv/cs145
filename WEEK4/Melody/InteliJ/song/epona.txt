@@ -1,0 +1,8 @@
+.3  D 5 NATURAL true
+.3  B 4 NATURAL false
+1.2 A 4 NATURAL  true 
+.3  D 5 NATURAL false
+.3  B 4 NATURAL false
+.6  A 4 NATURAL false 
+.6  B 4 NATURAL false 
+1.2  A 4 NATURAL  false

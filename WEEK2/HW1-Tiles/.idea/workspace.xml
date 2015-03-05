@@ -1,0 +1,1390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc770a5c-e887-41d1-bcfa-c958ff374c10" name="Default" comment="" />
+    <ignored path="HW1-Tiles.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="HW1-Tiles" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="DrawingPanel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DrawingPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3417" max-vertical-offset="4811">
+              <caret line="1067" column="13" selection-start-line="1067" selection-start-column="13" selection-end-line="1067" selection-end-column="13" />
+              <folding>
+                <element signature="docComment;class#DrawingPanel#0" expanded="false" />
+                <element signature="class#ImageFrame#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#ImageFrame#0;class#ImageFrame#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#checkAnimationSettings#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#hasProperty#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#propertyIsTrue#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#mainIsActive#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="e#7276#7297#0" expanded="false" />
+                <element signature="method#usingDrJava#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="class#ImagePanel#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#ImagePanel#0;class#ImagePanel#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#paintComponent#0;class#ImagePanel#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#setImage#0;class#ImagePanel#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#DrawingPanel#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="e#10904#10973#0" expanded="false" />
+                <element signature="e#12237#12298#0" expanded="false" />
+                <element signature="method#accept#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#actionPerformed#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#addKeyListener#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#addMouseListener#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#clear#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#mouseMoved#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#run#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#save#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="e#20818#20861#0" expanded="false" />
+                <element signature="e#21182#21195#0" expanded="false" />
+                <element signature="method#saveAnimated#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="e#21639#21693#0" expanded="false" />
+                <element signature="e#22280#22314#0" expanded="false" />
+                <element signature="method#setBackground#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="e#22894#22968#0" expanded="false" />
+                <element signature="method#setSize#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#setVisible#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#sleep#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#windowClosing#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#zoom#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#center#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#checkChooser#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#compareToFile#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#compareToURL#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#exit#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#getCallingClassName#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#getImage#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#initializeAnimation#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#readyToClose#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#replaceColor#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#saveAs#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#saveAsAnimated#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#saveAsHelper#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#saveToTempFile#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#setStatusBarText#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#setupMenuBar#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#showOptionDialog#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#DiffImage#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#actionPerformed#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#countDiffPixels#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#display#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#drawImageFull#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#paintComponent#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#save#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="e#48840#48912#0" expanded="false" />
+                <element signature="method#save#1;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#saveAs#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#setImage1#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#setImage1#1;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#setImage1#2;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#setImage2#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#setImage2#1;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#setImage2#2;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#setupComponents#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#setupLayout#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#setupMenuBar#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="e#56751#56789#0" expanded="false" />
+                <element signature="method#stateChanged#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#setupEvents#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="e#57443#57523#0" expanded="false" />
+                <element signature="docComment;class#DirectGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="class#DirectGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="docComment;method#DirectGif89Frame#0;class#DirectGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#DirectGif89Frame#0;class#DirectGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="docComment;method#DirectGif89Frame#1;class#DirectGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#DirectGif89Frame#1;class#DirectGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#getPixelSource#0;class#DirectGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="e#60448#60528#0" expanded="false" />
+                <element signature="docComment;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="docComment;method#Gif89Encoder#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#Gif89Encoder#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="docComment;method#Gif89Encoder#1;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#Gif89Encoder#1;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="docComment;method#Gif89Encoder#2;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="docComment;method#Gif89Encoder#3;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#Gif89Encoder#3;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="docComment;method#getFrameCount#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#getFrameCount#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="docComment;method#getFrameAt#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="docComment;method#addFrame#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#addFrame#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="docComment;method#addFrame#1;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#addFrame#1;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="docComment;method#addFrame#2;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#addFrame#2;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="docComment;method#insertFrame#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#insertFrame#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="docComment;method#setTransparentIndex#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="docComment;method#setLogicalDisplay#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#setLogicalDisplay#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="docComment;method#setLoopCount#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="docComment;method#setComments#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="docComment;method#setUniformDelay#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#setUniformDelay#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="docComment;method#encode#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#encode#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="docComment;method#startEncoding#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#startEncoding#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#continueEncoding#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#endEncoding#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#setBackground#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#accommodateFrame#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#writeLogicalScreenDescriptor#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="e#79004#79063#0" expanded="false" />
+                <element signature="e#79413#79486#0" expanded="false" />
+                <element signature="method#writeNetscapeExtension#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="e#80162#80230#0" expanded="false" />
+                <element signature="method#writeCommentExtension#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#GifColorTable#1;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#indexOf#0;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#getDepth#0;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#getTransparent#0;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#processPixels#0;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#closePixelProcessing#0;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#encode#0;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="e#84570#84642#0" expanded="false" />
+                <element signature="method#filterPixels#0;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#trackPixelUsage#0;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#computeColorDepth#0;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="e#88044#88118#0" expanded="false" />
+                <element signature="n#!!doc;n#ReverseColorMap#0;n#DrawingPanel#0" expanded="false" />
+                <element signature="class#ReverseColorMap#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="class#ColorRecord#0;class#ReverseColorMap#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#ColorRecord#0;class#ColorRecord#0;class#ReverseColorMap#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#getPaletteIndex#0;class#ReverseColorMap#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#put#0;class#ReverseColorMap#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="e#90987#91067#0" expanded="false" />
+                <element signature="docComment;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="docComment;field#DM_UNDEFINED#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="docComment;field#DM_LEAVE#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="docComment;field#DM_BGCOLOR#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="docComment;field#DM_REVERT#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="docComment;method#setPosition#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="docComment;method#setInterlaced#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="docComment;method#setDelay#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="docComment;method#setDisposalMode#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#getWidth#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#getHeight#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#getPixelSink#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#encode#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#writeGraphicControlExtension#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#writeImageDescriptor#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#GifPixelsEncoder#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#encode#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="e#100664#100742#0" expanded="false" />
+                <element signature="method#bumpPosition#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="e#101449#101519#0" expanded="false" />
+                <element signature="method#nextPixel#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="e#102971#103049#0" expanded="false" />
+                <element signature="e#104127#104173#0" expanded="false" />
+                <element signature="e#105489#105559#0" expanded="false" />
+                <element signature="method#compress#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="e#108859#108868#0" expanded="false" />
+                <element signature="method#output#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="e#110199#110261#0" expanded="false" />
+                <element signature="method#cl_block#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#cl_hash#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#char_out#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#flush_char#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="e#112645#112725#0" expanded="false" />
+                <element signature="docComment;class#IndexGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="class#IndexGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="docComment;method#IndexGif89Frame#0;class#IndexGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#IndexGif89Frame#0;class#IndexGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#getPixelSource#0;class#IndexGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="docComment;method#putAscii#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#putAscii#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="docComment;method#putShort#0;class#DrawingPanel#0" expanded="false" />
+                <element signature="method#putShort#0;class#DrawingPanel#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tile.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Tile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.14183553" vertical-offset="0" max-vertical-offset="839">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+              <folding>
+                <element signature="docComment;class#Tile#0" expanded="false" />
+                <element signature="docComment;method#Tile#0;class#Tile#0" expanded="false" />
+                <element signature="method#Tile#0;class#Tile#0" expanded="false" />
+                <element signature="method#draw#0;class#Tile#0" expanded="false" />
+                <element signature="docComment;method#getHeight#0;class#Tile#0" expanded="false" />
+                <element signature="docComment;method#getColor#0;class#Tile#0" expanded="false" />
+                <element signature="docComment;method#setX#0;class#Tile#0" expanded="false" />
+                <element signature="docComment;method#setY#0;class#Tile#0" expanded="false" />
+                <element signature="docComment;method#toString#0;class#Tile#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TileMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TileMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="191" max-vertical-offset="2244">
+              <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TileManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TileManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2085" max-vertical-offset="2924">
+              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/TileManager.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="840" />
+    <option name="width" value="840" />
+    <option name="height" value="1010" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HW1-Tiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HW1-Tiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HW1-Tiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HW1-Tiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HW1-Tiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="recentsLimit" value="5" />
+    <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="RunManager" selected="Application.TileMain">
+    <configuration default="false" name="TileMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="TileMain" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="HW1-Tiles" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.TileMain" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.TileMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc770a5c-e887-41d1-bcfa-c958ff374c10" name="Default" comment="" />
+      <created>1421273596102</created>
+      <option name="number" value="Default" />
+      <updated>1421273596102</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="840" y="0" width="840" height="1010" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23589744" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/DrawingPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3417" max-vertical-offset="4811">
+          <caret line="1067" column="13" selection-start-line="1067" selection-start-column="13" selection-end-line="1067" selection-end-column="13" />
+          <folding>
+            <element signature="docComment;class#DrawingPanel#0" expanded="false" />
+            <element signature="class#ImageFrame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#ImageFrame#0;class#ImageFrame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#checkAnimationSettings#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#hasProperty#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#propertyIsTrue#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#mainIsActive#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#7276#7297#0" expanded="false" />
+            <element signature="method#usingDrJava#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="class#ImagePanel#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#ImagePanel#0;class#ImagePanel#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#paintComponent#0;class#ImagePanel#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setImage#0;class#ImagePanel#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#DrawingPanel#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#10904#10973#0" expanded="false" />
+            <element signature="e#12237#12298#0" expanded="false" />
+            <element signature="method#accept#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#actionPerformed#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#addKeyListener#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#addMouseListener#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#clear#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#mouseMoved#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#run#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#save#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#20818#20861#0" expanded="false" />
+            <element signature="e#21182#21195#0" expanded="false" />
+            <element signature="method#saveAnimated#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#21639#21693#0" expanded="false" />
+            <element signature="e#22280#22314#0" expanded="false" />
+            <element signature="method#setBackground#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#22894#22968#0" expanded="false" />
+            <element signature="method#setSize#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setVisible#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#sleep#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#windowClosing#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#zoom#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#center#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#checkChooser#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#compareToFile#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#compareToURL#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#exit#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#getCallingClassName#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#getImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#initializeAnimation#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#readyToClose#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#replaceColor#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#saveAs#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#saveAsAnimated#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#saveAsHelper#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#saveToTempFile#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setStatusBarText#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setupMenuBar#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#showOptionDialog#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#DiffImage#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#actionPerformed#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#countDiffPixels#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#display#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#drawImageFull#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#paintComponent#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#save#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#48840#48912#0" expanded="false" />
+            <element signature="method#save#1;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#saveAs#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setImage1#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setImage1#1;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setImage1#2;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setImage2#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setImage2#1;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setImage2#2;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setupComponents#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setupLayout#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setupMenuBar#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#56751#56789#0" expanded="false" />
+            <element signature="method#stateChanged#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setupEvents#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#57443#57523#0" expanded="false" />
+            <element signature="docComment;class#DirectGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="class#DirectGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#DirectGif89Frame#0;class#DirectGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#DirectGif89Frame#0;class#DirectGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#DirectGif89Frame#1;class#DirectGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#DirectGif89Frame#1;class#DirectGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#getPixelSource#0;class#DirectGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#60448#60528#0" expanded="false" />
+            <element signature="docComment;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#Gif89Encoder#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#Gif89Encoder#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#Gif89Encoder#1;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#Gif89Encoder#1;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#Gif89Encoder#2;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#Gif89Encoder#3;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#Gif89Encoder#3;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#getFrameCount#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#getFrameCount#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#getFrameAt#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#addFrame#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#addFrame#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#addFrame#1;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#addFrame#1;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#addFrame#2;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#addFrame#2;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#insertFrame#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#insertFrame#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#setTransparentIndex#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#setLogicalDisplay#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setLogicalDisplay#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#setLoopCount#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#setComments#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#setUniformDelay#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setUniformDelay#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#encode#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#encode#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#startEncoding#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#startEncoding#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#continueEncoding#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#endEncoding#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setBackground#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#accommodateFrame#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#writeLogicalScreenDescriptor#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#79004#79063#0" expanded="false" />
+            <element signature="e#79413#79486#0" expanded="false" />
+            <element signature="method#writeNetscapeExtension#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#80162#80230#0" expanded="false" />
+            <element signature="method#writeCommentExtension#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#GifColorTable#1;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#indexOf#0;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#getDepth#0;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#getTransparent#0;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#processPixels#0;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#closePixelProcessing#0;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#encode#0;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#84570#84642#0" expanded="false" />
+            <element signature="method#filterPixels#0;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#trackPixelUsage#0;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#computeColorDepth#0;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#88044#88118#0" expanded="false" />
+            <element signature="n#!!doc;n#ReverseColorMap#0;n#DrawingPanel#0" expanded="false" />
+            <element signature="class#ReverseColorMap#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="class#ColorRecord#0;class#ReverseColorMap#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#ColorRecord#0;class#ColorRecord#0;class#ReverseColorMap#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#getPaletteIndex#0;class#ReverseColorMap#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#put#0;class#ReverseColorMap#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#90987#91067#0" expanded="false" />
+            <element signature="docComment;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;field#DM_UNDEFINED#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;field#DM_LEAVE#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;field#DM_BGCOLOR#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;field#DM_REVERT#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#setPosition#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#setInterlaced#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#setDelay#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#setDisposalMode#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#getWidth#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#getHeight#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#getPixelSink#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#encode#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#writeGraphicControlExtension#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#writeImageDescriptor#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#GifPixelsEncoder#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#encode#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#100664#100742#0" expanded="false" />
+            <element signature="method#bumpPosition#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#101449#101519#0" expanded="false" />
+            <element signature="method#nextPixel#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#102971#103049#0" expanded="false" />
+            <element signature="e#104127#104173#0" expanded="false" />
+            <element signature="e#105489#105559#0" expanded="false" />
+            <element signature="method#compress#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#108859#108868#0" expanded="false" />
+            <element signature="method#output#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#110199#110261#0" expanded="false" />
+            <element signature="method#cl_block#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#cl_hash#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#char_out#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#flush_char#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#112645#112725#0" expanded="false" />
+            <element signature="docComment;class#IndexGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="class#IndexGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#IndexGif89Frame#0;class#IndexGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#IndexGif89Frame#0;class#IndexGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#getPixelSource#0;class#IndexGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#putAscii#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#putAscii#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#putShort#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#putShort#0;class#DrawingPanel#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="816">
+          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+          <folding>
+            <element signature="docComment;class#Tile#0" expanded="false" />
+            <element signature="docComment;method#Tile#0;class#Tile#0" expanded="false" />
+            <element signature="method#Tile#0;class#Tile#0" expanded="false" />
+            <element signature="method#draw#0;class#Tile#0" expanded="false" />
+            <element signature="docComment;method#getHeight#0;class#Tile#0" expanded="false" />
+            <element signature="docComment;method#getColor#0;class#Tile#0" expanded="false" />
+            <element signature="docComment;method#setX#0;class#Tile#0" expanded="false" />
+            <element signature="docComment;method#setY#0;class#Tile#0" expanded="false" />
+            <element signature="docComment;method#toString#0;class#Tile#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TileMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="191" max-vertical-offset="2244">
+          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TileManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2856">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DrawingPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3417" max-vertical-offset="4811">
+          <caret line="1067" column="13" selection-start-line="1067" selection-start-column="13" selection-end-line="1067" selection-end-column="13" />
+          <folding>
+            <element signature="docComment;class#DrawingPanel#0" expanded="false" />
+            <element signature="class#ImageFrame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#ImageFrame#0;class#ImageFrame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#checkAnimationSettings#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#hasProperty#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#propertyIsTrue#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#mainIsActive#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#7276#7297#0" expanded="false" />
+            <element signature="method#usingDrJava#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="class#ImagePanel#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#ImagePanel#0;class#ImagePanel#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#paintComponent#0;class#ImagePanel#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setImage#0;class#ImagePanel#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#DrawingPanel#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#10904#10973#0" expanded="false" />
+            <element signature="e#12237#12298#0" expanded="false" />
+            <element signature="method#accept#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#actionPerformed#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#addKeyListener#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#addMouseListener#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#clear#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#mouseMoved#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#run#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#save#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#20818#20861#0" expanded="false" />
+            <element signature="e#21182#21195#0" expanded="false" />
+            <element signature="method#saveAnimated#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#21639#21693#0" expanded="false" />
+            <element signature="e#22280#22314#0" expanded="false" />
+            <element signature="method#setBackground#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#22894#22968#0" expanded="false" />
+            <element signature="method#setSize#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setVisible#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#sleep#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#windowClosing#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#zoom#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#center#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#checkChooser#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#compareToFile#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#compareToURL#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#exit#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#getCallingClassName#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#getImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#initializeAnimation#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#readyToClose#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#replaceColor#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#saveAs#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#saveAsAnimated#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#saveAsHelper#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#saveToTempFile#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setStatusBarText#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setupMenuBar#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#showOptionDialog#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#DiffImage#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#actionPerformed#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#countDiffPixels#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#display#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#drawImageFull#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#paintComponent#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#save#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#48840#48912#0" expanded="false" />
+            <element signature="method#save#1;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#saveAs#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setImage1#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setImage1#1;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setImage1#2;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setImage2#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setImage2#1;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setImage2#2;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setupComponents#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setupLayout#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setupMenuBar#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#56751#56789#0" expanded="false" />
+            <element signature="method#stateChanged#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setupEvents#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#57443#57523#0" expanded="false" />
+            <element signature="docComment;class#DirectGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="class#DirectGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#DirectGif89Frame#0;class#DirectGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#DirectGif89Frame#0;class#DirectGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#DirectGif89Frame#1;class#DirectGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#DirectGif89Frame#1;class#DirectGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#getPixelSource#0;class#DirectGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#60448#60528#0" expanded="false" />
+            <element signature="docComment;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#Gif89Encoder#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#Gif89Encoder#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#Gif89Encoder#1;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#Gif89Encoder#1;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#Gif89Encoder#2;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#Gif89Encoder#3;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#Gif89Encoder#3;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#getFrameCount#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#getFrameCount#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#getFrameAt#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#addFrame#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#addFrame#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#addFrame#1;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#addFrame#1;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#addFrame#2;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#addFrame#2;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#insertFrame#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#insertFrame#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#setTransparentIndex#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#setLogicalDisplay#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setLogicalDisplay#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#setLoopCount#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#setComments#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#setUniformDelay#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setUniformDelay#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#encode#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#encode#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#startEncoding#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#startEncoding#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#continueEncoding#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#endEncoding#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setBackground#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#accommodateFrame#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#writeLogicalScreenDescriptor#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#79004#79063#0" expanded="false" />
+            <element signature="e#79413#79486#0" expanded="false" />
+            <element signature="method#writeNetscapeExtension#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#80162#80230#0" expanded="false" />
+            <element signature="method#writeCommentExtension#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#GifColorTable#1;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#indexOf#0;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#getDepth#0;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#getTransparent#0;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#processPixels#0;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#closePixelProcessing#0;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#encode#0;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#84570#84642#0" expanded="false" />
+            <element signature="method#filterPixels#0;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#trackPixelUsage#0;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#computeColorDepth#0;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#88044#88118#0" expanded="false" />
+            <element signature="n#!!doc;n#ReverseColorMap#0;n#DrawingPanel#0" expanded="false" />
+            <element signature="class#ReverseColorMap#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="class#ColorRecord#0;class#ReverseColorMap#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#ColorRecord#0;class#ColorRecord#0;class#ReverseColorMap#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#getPaletteIndex#0;class#ReverseColorMap#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#put#0;class#ReverseColorMap#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#90987#91067#0" expanded="false" />
+            <element signature="docComment;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;field#DM_UNDEFINED#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;field#DM_LEAVE#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;field#DM_BGCOLOR#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;field#DM_REVERT#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#setPosition#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#setInterlaced#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#setDelay#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#setDisposalMode#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#getWidth#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#getHeight#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#getPixelSink#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#encode#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#writeGraphicControlExtension#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#writeImageDescriptor#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#GifPixelsEncoder#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#encode#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#100664#100742#0" expanded="false" />
+            <element signature="method#bumpPosition#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#101449#101519#0" expanded="false" />
+            <element signature="method#nextPixel#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#102971#103049#0" expanded="false" />
+            <element signature="e#104127#104173#0" expanded="false" />
+            <element signature="e#105489#105559#0" expanded="false" />
+            <element signature="method#compress#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#108859#108868#0" expanded="false" />
+            <element signature="method#output#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#110199#110261#0" expanded="false" />
+            <element signature="method#cl_block#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#cl_hash#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#char_out#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#flush_char#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#112645#112725#0" expanded="false" />
+            <element signature="docComment;class#IndexGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="class#IndexGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#IndexGif89Frame#0;class#IndexGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#IndexGif89Frame#0;class#IndexGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#getPixelSource#0;class#IndexGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#putAscii#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#putAscii#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#putShort#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#putShort#0;class#DrawingPanel#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="816">
+          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+          <folding>
+            <element signature="docComment;class#Tile#0" expanded="false" />
+            <element signature="docComment;method#Tile#0;class#Tile#0" expanded="false" />
+            <element signature="method#Tile#0;class#Tile#0" expanded="false" />
+            <element signature="method#draw#0;class#Tile#0" expanded="false" />
+            <element signature="docComment;method#getHeight#0;class#Tile#0" expanded="false" />
+            <element signature="docComment;method#getColor#0;class#Tile#0" expanded="false" />
+            <element signature="docComment;method#setX#0;class#Tile#0" expanded="false" />
+            <element signature="docComment;method#setY#0;class#Tile#0" expanded="false" />
+            <element signature="docComment;method#toString#0;class#Tile#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TileMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="191" max-vertical-offset="2244">
+          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TileManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2924">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DrawingPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3417" max-vertical-offset="4811">
+          <caret line="1067" column="13" selection-start-line="1067" selection-start-column="13" selection-end-line="1067" selection-end-column="13" />
+          <folding>
+            <element signature="docComment;class#DrawingPanel#0" expanded="false" />
+            <element signature="class#ImageFrame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#ImageFrame#0;class#ImageFrame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#checkAnimationSettings#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#hasProperty#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#propertyIsTrue#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#mainIsActive#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#7276#7297#0" expanded="false" />
+            <element signature="method#usingDrJava#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="class#ImagePanel#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#ImagePanel#0;class#ImagePanel#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#paintComponent#0;class#ImagePanel#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setImage#0;class#ImagePanel#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#DrawingPanel#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#10904#10973#0" expanded="false" />
+            <element signature="e#12237#12298#0" expanded="false" />
+            <element signature="method#accept#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#actionPerformed#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#addKeyListener#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#addMouseListener#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#clear#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#mouseMoved#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#run#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#save#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#20818#20861#0" expanded="false" />
+            <element signature="e#21182#21195#0" expanded="false" />
+            <element signature="method#saveAnimated#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#21639#21693#0" expanded="false" />
+            <element signature="e#22280#22314#0" expanded="false" />
+            <element signature="method#setBackground#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#22894#22968#0" expanded="false" />
+            <element signature="method#setSize#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setVisible#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#sleep#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#windowClosing#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#zoom#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#center#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#checkChooser#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#compareToFile#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#compareToURL#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#exit#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#getCallingClassName#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#getImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#initializeAnimation#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#readyToClose#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#replaceColor#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#saveAs#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#saveAsAnimated#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#saveAsHelper#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#saveToTempFile#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setStatusBarText#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setupMenuBar#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#showOptionDialog#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#DiffImage#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#actionPerformed#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#countDiffPixels#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#display#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#drawImageFull#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#paintComponent#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#save#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#48840#48912#0" expanded="false" />
+            <element signature="method#save#1;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#saveAs#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setImage1#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setImage1#1;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setImage1#2;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setImage2#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setImage2#1;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setImage2#2;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setupComponents#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setupLayout#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setupMenuBar#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#56751#56789#0" expanded="false" />
+            <element signature="method#stateChanged#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setupEvents#0;class#DiffImage#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#57443#57523#0" expanded="false" />
+            <element signature="docComment;class#DirectGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="class#DirectGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#DirectGif89Frame#0;class#DirectGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#DirectGif89Frame#0;class#DirectGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#DirectGif89Frame#1;class#DirectGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#DirectGif89Frame#1;class#DirectGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#getPixelSource#0;class#DirectGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#60448#60528#0" expanded="false" />
+            <element signature="docComment;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#Gif89Encoder#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#Gif89Encoder#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#Gif89Encoder#1;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#Gif89Encoder#1;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#Gif89Encoder#2;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#Gif89Encoder#3;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#Gif89Encoder#3;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#getFrameCount#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#getFrameCount#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#getFrameAt#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#addFrame#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#addFrame#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#addFrame#1;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#addFrame#1;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#addFrame#2;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#addFrame#2;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#insertFrame#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#insertFrame#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#setTransparentIndex#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#setLogicalDisplay#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setLogicalDisplay#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#setLoopCount#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#setComments#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#setUniformDelay#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setUniformDelay#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#encode#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#encode#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#startEncoding#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#startEncoding#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#continueEncoding#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#endEncoding#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#setBackground#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#accommodateFrame#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#writeLogicalScreenDescriptor#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#79004#79063#0" expanded="false" />
+            <element signature="e#79413#79486#0" expanded="false" />
+            <element signature="method#writeNetscapeExtension#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#80162#80230#0" expanded="false" />
+            <element signature="method#writeCommentExtension#0;class#Gif89Encoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#GifColorTable#1;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#indexOf#0;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#getDepth#0;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#getTransparent#0;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#processPixels#0;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#closePixelProcessing#0;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#encode#0;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#84570#84642#0" expanded="false" />
+            <element signature="method#filterPixels#0;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#trackPixelUsage#0;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#computeColorDepth#0;class#GifColorTable#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#88044#88118#0" expanded="false" />
+            <element signature="n#!!doc;n#ReverseColorMap#0;n#DrawingPanel#0" expanded="false" />
+            <element signature="class#ReverseColorMap#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="class#ColorRecord#0;class#ReverseColorMap#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#ColorRecord#0;class#ColorRecord#0;class#ReverseColorMap#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#getPaletteIndex#0;class#ReverseColorMap#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#put#0;class#ReverseColorMap#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#90987#91067#0" expanded="false" />
+            <element signature="docComment;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;field#DM_UNDEFINED#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;field#DM_LEAVE#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;field#DM_BGCOLOR#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;field#DM_REVERT#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#setPosition#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#setInterlaced#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#setDelay#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#setDisposalMode#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#getWidth#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#getHeight#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#getPixelSink#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#encode#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#writeGraphicControlExtension#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#writeImageDescriptor#0;class#Gif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#GifPixelsEncoder#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#encode#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#100664#100742#0" expanded="false" />
+            <element signature="method#bumpPosition#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#101449#101519#0" expanded="false" />
+            <element signature="method#nextPixel#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#102971#103049#0" expanded="false" />
+            <element signature="e#104127#104173#0" expanded="false" />
+            <element signature="e#105489#105559#0" expanded="false" />
+            <element signature="method#compress#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#108859#108868#0" expanded="false" />
+            <element signature="method#output#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#110199#110261#0" expanded="false" />
+            <element signature="method#cl_block#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#cl_hash#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#char_out#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#flush_char#0;class#GifPixelsEncoder#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="e#112645#112725#0" expanded="false" />
+            <element signature="docComment;class#IndexGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="class#IndexGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#IndexGif89Frame#0;class#IndexGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#IndexGif89Frame#0;class#IndexGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#getPixelSource#0;class#IndexGif89Frame#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#putAscii#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#putAscii#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="docComment;method#putShort#0;class#DrawingPanel#0" expanded="false" />
+            <element signature="method#putShort#0;class#DrawingPanel#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TileMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="191" max-vertical-offset="2244">
+          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TileManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2085" max-vertical-offset="2924">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14183553" vertical-offset="0" max-vertical-offset="839">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="docComment;class#Tile#0" expanded="false" />
+            <element signature="docComment;method#Tile#0;class#Tile#0" expanded="false" />
+            <element signature="method#Tile#0;class#Tile#0" expanded="false" />
+            <element signature="method#draw#0;class#Tile#0" expanded="false" />
+            <element signature="docComment;method#getHeight#0;class#Tile#0" expanded="false" />
+            <element signature="docComment;method#getColor#0;class#Tile#0" expanded="false" />
+            <element signature="docComment;method#setX#0;class#Tile#0" expanded="false" />
+            <element signature="docComment;method#setY#0;class#Tile#0" expanded="false" />
+            <element signature="docComment;method#toString#0;class#Tile#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>HW1-Tiles</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
