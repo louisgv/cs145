@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="062b0e03-7429-4320-802b-851294929f62" name="Default" comment="Initialize Anagram!">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AnagramMain.java" afterPath="$PROJECT_DIR$/src/AnagramMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.gitignore" afterPath="$PROJECT_DIR$/../../.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AnagramSolver.java" afterPath="$PROJECT_DIR$/src/AnagramSolver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Anagrams.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,8 +52,8 @@
       <file leaf-file-name="AnagramSolver.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AnagramSolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6802721" vertical-offset="654" max-vertical-offset="1887">
-              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.71088433" vertical-offset="585" max-vertical-offset="1887">
+              <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1280#1281#0" expanded="true" />
@@ -76,6 +77,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/AnagramMain.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/AnagramSolver.java" />
       </list>
     </option>
@@ -551,10 +553,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3026087" vertical-offset="9448" max-vertical-offset="11526">
+          <caret line="566" column="61" selection-start-line="566" selection-start-column="61" selection-end-line="566" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/AnagramSolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6802721" vertical-offset="654" max-vertical-offset="1887">
-          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.71088433" vertical-offset="585" max-vertical-offset="1887">
+          <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1280#1281#0" expanded="true" />
