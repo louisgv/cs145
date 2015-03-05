@@ -1,5 +1,9 @@
-act  ::= hero verb | verb | hero verb hero symb
-verb ::= die | attack | poison| tackle | swing | shoot| adj verb
+act  ::= hero verb | verb | hero verb hero symb | hero verb trea symb
+verb ::= die | attack | poison| tackle | swing | shoot| adj verb | got | acquired
 adj  ::= green | red | purple | powerful | soulful | beautiful
 hero ::= hermit | warrior | pikachu | kratos | Layla | Adam | Jojo | adj hero
 symb ::= !|?!| !!! | ??
+trea ::= ruby | saphire | topaz | lama | adj weap
+weap ::= sword | spear | soul | book | hero
+plac ::= Egypt | London | Shibuya | Hanoi | Shanghai | New York
+vehi ::= car | adj vehi | bike | cloud | plane

@@ -3,6 +3,15 @@ import java.util.*;
 /**
  * This class transforms Grammar rules into Random sentences.
  *
+ *  It first read in the rule file, extract data into a map
+ *  with non_terminal as key, and values as associated rules
+ *  for each non_terminal.
+ *
+ *  Upon receiving a symbol, the object pre-process the symbol,
+ *  strip it from non-rule characters, then compares it with
+ *  the set of key to generate the random sentence.
+ *
+ *  User can generate sentence without the '<' and '>' brackets
  * <ul>
  * <li> Name: GrammarSolver.java
  * <li> Description: Grammar Solver
@@ -10,7 +19,6 @@ import java.util.*;
  * <li> Instructor: Ken Hang && Janet Ash
  * <li> Date: March 1 2015
  * </ul>
- *
  * @author  Hai H Nguyen (Bill)
  * @version Winter 2015
  */
@@ -32,7 +40,8 @@ public class GrammarSolver {
      * <li> If the grammar definition is duplicated, throw IllegalArgumentException
      * <li> Initializes a new grammar solver
      * <ul/>
-     * @param rules         BNF grammar rules
+     * @param rules                         BNF grammar rules
+     * @throws IllegalArgumentException     If rules List is Empty or Duplicate Found
      */
     public GrammarSolver(List<String> rules) {
         if (rules == null || rules.isEmpty()) {
@@ -45,8 +54,8 @@ public class GrammarSolver {
     }
 
     /**
-     * Helper method used to extract data from rule string
-     * @param rule          The Rule String to be Extracted
+     * @param rule                          A line from the Grammar file
+     * @throws IllegalArgumentException     If Duplicate Found
      */
     private void extractGrammarRule(String rule){
         String[] data = rule.split(TERM_SEPARATOR);
@@ -63,9 +72,10 @@ public class GrammarSolver {
     }
 
     /**
-     * Check if a Symbol is non-terminal or not.
-     * @param symbol        Symbol to be check
-     * @return              True if symbol is a non-terminal, False otherwise
+     * Check if a Symbol is Non-terminal or not.
+     * @param symbol                        Symbol to be check
+     * @return                              True if symbol is a non-terminal
+     * @throws IllegalArgumentException     If Symbol is empty
      */
     public boolean contains (String symbol) {
         if (symbol.isEmpty()) {
@@ -76,60 +86,59 @@ public class GrammarSolver {
     }
 
     /**
-     * Surround Symbols inside Alligator brackets
-     * @param symbol        Symbol to be Formatted
-     * @return              A Formatted symbol surrounded by '<' and '>'
-     */
-    private String bracketedSymbol(String symbol){
-        return "<" + simplifiedSymbol(symbol) + ">";
-    }
-
-    /**
-     * Simplify Symbols, pretty handy
-     * @param symbol        Symbol to be Simplified
-     * @return              A Simplified symbol without '<' or '>'
-     */
-    private String simplifiedSymbol(String symbol){
-        return symbol.replaceAll(NON_TERM_REGEX, "").trim();
-    }
-
-    /**
-     * @return              A set of Symbols from the maps
+     * @return              A set of Non-terminals from the maps
      */
     public Set<String> getSymbols() {
         return grammarRulesMap.keySet();
     }
 
     /**
-     * @param bound        The Upper bound of the Random
-     * @return              A random int within the bound
+     * Generate Sentences with the given Non-terminal
+     * @param symbol        Non-terminal to look for rules
+     * @return              A Random sentence
+     */
+    public String generate(String symbol){
+        if (contains(symbol)){
+            // Get the Rules associated with the symbol
+            String[] values = grammarRulesMap.get(bracketedSymbol(symbol));
+            // Extract one random Rule and Split it into symbols
+            String[] symbols = values[randomIndex(values.length)].trim().split(TOKEN_REGEX);
+            // Initialize output using the first symbol
+            String out = generate(symbols[0]);
+            // Implement the sentence, treating each symbols as non-terminal
+            for (int i = 1; i < symbols.length; ++i ) {
+                out += " " + generate(symbols[i]);
+            }
+            // Return the sentence
+            return out;
+        } else { // If it is a Terminal, Return it directly
+            return symbol;
+        }
+    }
+
+    /**
+     * @param symbol    Symbol to be Bracketed
+     * @return          Symbol with brackets
+     */
+    private String bracketedSymbol(String symbol){
+        return "<" + simplifiedSymbol(symbol) + ">";
+    }
+
+    /**
+     * @param symbol    Symbol to be simplified
+     * @return          Symbol without non-words
+     */
+    private String simplifiedSymbol(String symbol){
+        return symbol.replaceAll(NON_TERM_REGEX, "").trim();
+    }
+
+    /**
+     * @param bound     Upper bound Exclusive bound
+     * @return          Random Index within the bound
      */
     private int randomIndex (int bound){
         Random randomVault = new Random();
 
         return randomVault.nextInt(bound);
-    }
-
-    /**
-     * Generate Sentences from the Symbol which indicates the flavor
-     * @param symbol        Symbol indicating sentence flavor
-     * @return              A random sentence
-     */
-    public String generate(String symbol){
-        if (contains(symbol)){
-            String[] values = grammarRulesMap.get(bracketedSymbol(symbol));
-
-            String[] symbols = values[randomIndex(values.length)].trim().split(TOKEN_REGEX);
-
-            String out = generate(symbols[0]);
-
-            for (int i = 1; i < symbols.length; ++i ) {
-                out += " " + generate(symbols[i]);
-            }
-
-            return out;
-        } else {
-            return symbol;
-        }
     }
 } // IS29
