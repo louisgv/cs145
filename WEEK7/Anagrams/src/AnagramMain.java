@@ -11,7 +11,7 @@ import java.util.*;
 
 public class AnagramMain {
     public static void main(String[] args) throws FileNotFoundException {
-        Scanner input = new Scanner(new File("dict0.txt"));
+        Scanner input = new Scanner(new File("dict1.txt"));
 
         List<String> dictionary = new ArrayList<String>();
 

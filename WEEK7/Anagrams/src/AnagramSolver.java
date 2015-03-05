@@ -49,7 +49,6 @@ public class AnagramSolver {
     // Play around with passed string
     public void tli(String s){
         LetterInventory sli = new LetterInventory(s);
-
         Stack<String> ew = new Stack<String>();
 
         for (String w: dictionary) {
@@ -57,10 +56,11 @@ public class AnagramSolver {
 
             LetterInventory newLi = new LetterInventory(w);
 
-            if (sli.subtract(newLi).size() != sli.size()){
+            LetterInventory pli = sli.subtract(newLi);
+
+            if (pli != null && pli.size() !=  sli.size()){
                 ew.push(w);
             }
-
         }
         debugLog(ew);
     }
