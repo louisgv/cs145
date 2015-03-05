@@ -15,7 +15,7 @@ public class AssassinMain {
     public static final String INPUT_FILENAME = "names.txt";
     
     /** true for different results every run; false for predictable results */
-    public static final boolean RANDOM = false;
+    public static final boolean RANDOM = true;
     
     /**
      * If not random, use this value to guide the sequence of numbers

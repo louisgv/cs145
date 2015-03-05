@@ -34,18 +34,14 @@ public class AssassinManager {
         }
     }
 
-    private void stalkKillStatus(String villain, String hero, boolean isStalk){
-
-    }
-
     /**
      * Show a report of who was killed by who.
      */
     public void printGraveyard(){
         if (frontGraveyard != null) {
-            AssassinNode gravePtr = frontGraveyard;
+            AssassinNode assassinPtr = frontGraveyard;
 
-            printAssassin(gravePtr, false);
+            printAssassin(assassinPtr, false);
         }
     }
 
@@ -56,20 +52,32 @@ public class AssassinManager {
         if (!isGameOver()) {
             AssassinNode assassinPtr = frontAssassin;
 
-            printAssassin(assassinPtr, false);
-
-            stalkKillStatus(assassinPtr.name, frontAssassin.name, true);
+            printAssassin(assassinPtr, true);
         }
     }
 
-    private void printAssassin(AssassinNode assassinPtr, boolean isAlive){
-        while (assassinPtr != null && assassinPtr.next != null) {
-            System.out.println( "  " + assassinPtr.name +
-                    ( isAlive ?
-                            (" is stalking " + assassinPtr.next.name) :
-                            (" was killed by " + assassinPtr.killer)));
+    private void stalkKillStatus(String villain, String hero, boolean isAlive){
+        System.out.println( "  " + villain +
+                ( isAlive ?
+                        (" is stalking ") : (" was killed by ")) + hero);
+    }
 
-            assassinPtr = assassinPtr.next;
+    private void printAssassin(AssassinNode assassinPtr, boolean isAlive){
+        while (assassinPtr != null) {
+            if (!isAlive) {
+                // Print Graveyard if assassin is Dead
+                stalkKillStatus(assassinPtr.name, assassinPtr.killer, false);
+
+                assassinPtr = assassinPtr.next;
+            } else if (assassinPtr.next != null) {
+                // Print Kill Ring if there is another Assassin ahead
+                stalkKillStatus(assassinPtr.name,
+                        assassinPtr.next.next == null ?
+                                frontAssassin.name : assassinPtr.next.name, true);
+                assassinPtr = assassinPtr.next;
+            } else {
+                assassinPtr = null;
+            }
         }
     }
 
@@ -81,15 +89,7 @@ public class AssassinManager {
     public boolean killRingContains(String name){
         AssassinNode assassinPtr = frontAssassin;
 
-        while (assassinPtr != null && assassinPtr.name != null){
-            if (assassinPtr.name.equalsIgnoreCase(name)){
-                return true;
-            } else {
-                assassinPtr = assassinPtr.next;
-            }
-        }
-
-        return false;
+        return contains(assassinPtr, name);
     }
 
     /**
@@ -101,18 +101,22 @@ public class AssassinManager {
         if (frontGraveyard != null){
             AssassinNode gravePtr = frontGraveyard;
 
-            while (gravePtr != null) {
-                if (gravePtr.name.equalsIgnoreCase(name)){
-                    return true;
-                }else {
-                    gravePtr = (gravePtr.next != null) ? gravePtr.next : null;
-                }
-            }
-
-            return false;
+            return contains(gravePtr, name);
         } else {
             return false;
         }
+    }
+
+    private boolean contains(AssassinNode assassinPtr, String name){
+        while (assassinPtr != null && assassinPtr.next != null) {
+            if (assassinPtr.name.equalsIgnoreCase(name)){
+                return true;
+            }else {
+                assassinPtr = assassinPtr.next;
+            }
+        }
+
+        return false;
     }
 
     /**
@@ -178,4 +182,4 @@ public class AssassinManager {
 
         frontGraveyard = victim;
     }
-}
+}//IS29
