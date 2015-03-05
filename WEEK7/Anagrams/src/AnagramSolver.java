@@ -49,22 +49,16 @@ public class AnagramSolver {
     // Play around with passed string
     public void tli(String s){
         LetterInventory sli = new LetterInventory(s);
-        
+        LetterInventory dli = new LetterInventory("");
+        for (String w: dictionary) {
+            LetterInventory newLi = new LetterInventory(s);
+            dli = dli.add(newLi);
+        }
         debugLog(sli);
 
         for (int i = 0 ; i < sli.size(); ++i){
-
+            
         }
-    }
-
-    // Play around with the letter inventory
-    public void tli(){
-        LetterInventory li = new LetterInventory("");
-        for (String s: dictionary) {
-            LetterInventory newLi = new LetterInventory(s);
-            li = li.add(newLi);
-        }
-        debugLog(li);
     }
 
 

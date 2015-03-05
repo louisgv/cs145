@@ -24,8 +24,6 @@ public class AnagramMain {
 
         String phrase = "george bush";
 
-        solver.tli();
-
         solver.tli(phrase);
     }
 
