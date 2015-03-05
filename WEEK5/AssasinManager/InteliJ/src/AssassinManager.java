@@ -22,15 +22,16 @@ public class AssassinManager {
 
     /**
      * Constructor which Initialize the Assassin Linked list
-     * @param name      A List of Assassin's Name
+     * @param names                         A List of Assassin's Name
+     * @throws IllegalArgumentException     If name List is Empty
      */
-    public AssassinManager (ArrayList<String> name){
-        if(name != null && !name.isEmpty()) {
-            for (int i = name.size() - 1; i >= 0; --i){
-                frontAssassin = new AssassinNode(name.get(i), frontAssassin);
+    public AssassinManager (ArrayList<String> names){
+        if(names != null && !names.isEmpty()) {
+            for (int i = names.size() - 1; i >= 0; --i){
+                frontAssassin = new AssassinNode(names.get(i), frontAssassin);
             }
         } else {
-            throw new IllegalArgumentException("Name List is Empty or Null");
+            throw new IllegalArgumentException("Names List is Empty or Null");
         }
     }
 
@@ -65,18 +66,14 @@ public class AssassinManager {
     private void printAssassin(AssassinNode assassinPtr, boolean isAlive){
         while (assassinPtr != null) {
             if (!isAlive) {
-                // Print Graveyard if assassin is Dead
                 stalkKillStatus(assassinPtr.name, assassinPtr.killer, false);
 
                 assassinPtr = assassinPtr.next;
-            } else if (assassinPtr.next != null) {
-                // Print Kill Ring if there is another Assassin ahead
+            } else {
                 stalkKillStatus(assassinPtr.name,
-                        assassinPtr.next.next == null ?
+                        assassinPtr.next == null ?
                                 frontAssassin.name : assassinPtr.next.name, true);
                 assassinPtr = assassinPtr.next;
-            } else {
-                assassinPtr = null;
             }
         }
     }
@@ -137,27 +134,34 @@ public class AssassinManager {
     /**
      * Search for name, and transfer it to the Graveyard
      * If none was found or Game is over, Throw Exceptions
-     * @param name          Name of the Victim
+     * @param name                          Name of the Victim
+     * @throws IllegalStateException        If game is Over
+     * @throws IllegalArgumentException     If Victim not found
+     *                                      If Kill Ring is empty
      */
     public void kill (String name){
         if (isGameOver()) {
             throw new IllegalStateException("Game Over");
         } else {
+            // Find the killer node
             AssassinNode killerPtr = getKiller(name);
-
+            // If victim is the first node
             if (frontAssassin.name.equalsIgnoreCase(name)) {
+                // Get the victim
                 AssassinNode victim = frontAssassin;
-
+                // Move the front assassin to the next one
                 frontAssassin = victim.next;
-
+                // Transfer victim to the graveyard
                 purgatory(victim, killerPtr);
             } else if (killerPtr == null || killerPtr.next == null) {
+                // If the killer associated with name cannot be found
                 throw new IllegalArgumentException("Nobody named " + name);
             } else {
+                // Get the victim
                 AssassinNode victim = killerPtr.next;
-
+                // Move the killer target to the next one
                 killerPtr.next = victim.next;
-
+                // Transfer victim to the graveyard
                 purgatory(victim, killerPtr);
             }
         }
