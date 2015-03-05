@@ -49,7 +49,7 @@ public class AnagramSolver {
     // Play around with passed string
     public void tli(String s){
         LetterInventory sli = new LetterInventory(s);
-
+        
         debugLog(sli);
 
         for (int i = 0 ; i < sli.size(); ++i){
