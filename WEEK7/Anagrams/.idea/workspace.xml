@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="062b0e03-7429-4320-802b-851294929f62" name="Default" comment="Initialize Anagram!">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AnagramMain.java" afterPath="$PROJECT_DIR$/src/AnagramMain.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AnagramSolver.java" afterPath="$PROJECT_DIR$/src/AnagramSolver.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -52,11 +51,11 @@
       <file leaf-file-name="AnagramSolver.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AnagramSolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56462586" vertical-offset="909" max-vertical-offset="2295">
-              <caret line="73" column="25" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.3622449" vertical-offset="1147" max-vertical-offset="2329">
+              <caret line="80" column="36" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1606#1614#0" expanded="true" />
+                <element signature="e#1611#1619#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -437,7 +436,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -508,7 +507,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1606#1614#0" expanded="true" />
+            <element signature="e#1611#1619#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -527,7 +526,7 @@
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1606#1614#0" expanded="true" />
+            <element signature="e#1611#1619#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -574,11 +573,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AnagramSolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56462586" vertical-offset="909" max-vertical-offset="2295">
-          <caret line="73" column="25" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.3622449" vertical-offset="1147" max-vertical-offset="2329">
+          <caret line="80" column="36" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1606#1614#0" expanded="true" />
+            <element signature="e#1611#1619#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -53,7 +53,7 @@ public class AnagramSolver {
     public void extractWords(String s){
         LetterInventory sLi = new LetterInventory(s);
 
-        Stack<String> sWs = new Stack<String>();
+        Queue<String> sWs = new LinkedList<String>();
 
         for (String word : dictionary) {
             // Extract a Letter inventory from word
@@ -62,12 +62,12 @@ public class AnagramSolver {
             LetterInventory pLi = sLi.subtract(wordLi);
             // If extracted inventory is not null || the subtraction was a success
             if (pLi != null){
-                sWs.push(word);
+                sWs.add(word);
             }
         }
         debugLog(sWs);
         while (!sWs.isEmpty()) {
-            wm(sWs.pop(), s);
+            wm(sWs.remove(), s);
         }
     }
 
@@ -77,6 +77,8 @@ public class AnagramSolver {
         LetterInventory sFsLi = new LetterInventory(sFs);
         LetterInventory pLi = sLi;
         while (pLi != null){
+
+            Stack<String> out = new;
             debugLog(sR);
 
             pLi = pLi.subtract(sLi);
