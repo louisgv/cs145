@@ -3,17 +3,15 @@ import sun.security.ssl.Debug;
 import java.util.*;
 
 /**
- * This class transforms Grammar rules into Random sentences.
+ * This class Searchs for Anagrams of a Word given a Dictionary.
  *
- *  It first read in the rule file, extract data into a map
- *  with non_terminal as key, and values as associated rules
- *  for each non_terminal.
+ *  It first store a dictionary for reference.
+ *  When Given a word, the print function finds in the dictionary
+ *  Anagrams which could be extracted.
  *
- *  Upon receiving a symbol, the object pre-process the symbol,
- *  strip it from non-rule characters, then compares it with
- *  the set of key to generate the random sentence.
+ *  For every new word query, the program stores available anagrams of
+ *  that word into a map. Thus future query of that same word is faster.
  *
- *  User can generate sentence without the '<' and '>' brackets
  * <ul>
  * <li> Name: AnagramSolver.java
  * <li> Description: Anagram Solver
@@ -25,8 +23,9 @@ import java.util.*;
  * @version Winter 2015
  */
 public class AnagramSolver {
-
     private List<String> dictionary;
+    // anagrams of queried words, Scalable
+    private Map<String, Set<String>> anagramDictionary = new HashMap<String, Set<String>>();
 
     /**
      * Constructor, given a list, Initialize the dictionary
@@ -42,18 +41,19 @@ public class AnagramSolver {
     }
 
     public void debugLog(Object o){
-        if(o!= null)
+        if(o!= null) {
             System.out.println(o.toString());
+        }
     }
 
     /**
      * Extract words found from the given String into a Stack
      * @param s         String to Extract word
      */
-    public void extractWords(String s){
+    private Set<String> extractWords(String s){
         LetterInventory sLi = new LetterInventory(s);
 
-        Queue<String> sWs = new LinkedList<String>();
+        Set<String> sWs = new LinkedHashSet<String>();
 
         for (String word : dictionary) {
             // Extract a Letter inventory from word
@@ -65,67 +65,57 @@ public class AnagramSolver {
                 sWs.add(word);
             }
         }
-        debugLog(sWs);
-        while (!sWs.isEmpty()) {
-            wm(sWs.remove(), s);
-        }
+
+        return sWs;
     }
 
-    public void wm(String sFs, String sR){
-        LetterInventory sLi = new LetterInventory(sR);
+    public LetterInventory root(String chosen, LetterInventory lettersToUse){
+        return lettersToUse = lettersToUse.subtract(new LetterInventory(chosen));
+    }
 
-        LetterInventory sFsLi = new LetterInventory(sFs);
-        LetterInventory pLi = sLi;
-        while (pLi != null){
+    public boolean accept (){
+        return true;
+    }
 
-            Stack<String> out = new;
-            debugLog(sR);
-
-            pLi = pLi.subtract(sLi);
-        }
+    public String first (String chosen, LetterInventory lettersToUse){
+        return "something";
     }
 
     public void print(String s, int max) {
+        if(anagramDictionary.containsKey(s)){
+            if (!s.isEmpty()){
+                //Recursively pullout the anagrams here!!
+                Set<String> choices = anagramDictionary.get(s);
 
+                LetterInventory lettersToUse = new LetterInventory(s);
 
+                LetterInventory chosen = new LetterInventory(choices.iterator().next());
 
-    }
+                lettersToUse = lettersToUse.subtract(chosen);
 
-/*
-    private Stack<String> backtrack(String newWords) {
-
-        Stack<String> words = subset(Stack < String >);
-
-        Stack<String> out = subset(Stack < String >);
-
-        for (word: words) {
-            out.push(anagramsOf(word));
-        }
-
-
-        backtrack(word);
-    }
-
-    private String anagramsOf(String s) {
-        Stack n = new Stack;
-        for (comb: s) {
-            n.push(dictionary.found(comb));
-        }
-
-    }
-
-    public void print(String s, int max) {
-
-        if (max < 0) {
-            throw new IllegalArgumentException("Max is Negative?!");
-        } else {
-
-            LetterInventory sInventory = new LetterInventory(s);
-
-            for (word in sInventory) {
-                print (s, max);
+                print(lettersToUse.toString(), max);
             }
-        }
-    }*/
+        } else{
+            anagramDictionary.put(s,extractWords(s));
 
+            print (s,max);
+        }
+    }
 }
+
+//    procedure bt(c)
+//        if reject(P,c) then return
+//        if accept(P,c) then output(P,c)
+//        s ← first(P,c)
+//        while s ≠ Λ do
+//        bt(s)
+//        s ← next(P,s)
+
+//      Partial candidate c is: The First word!
+
+//        root(P): return the partial candidate at the root of the search tree.
+//        reject(P,c): return true only if the partial candidate c is not worth completing.
+//        accept(P,c): return true if c is a solution of P, and false otherwise.
+//        first(P,c): generate the first extension of candidate c.
+//        next(P,s): generate the next alternative extension of a candidate, after the extension s.
+//        output(P,c): use the solution c of P, as appropriate to the application.
