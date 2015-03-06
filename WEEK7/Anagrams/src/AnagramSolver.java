@@ -46,11 +46,23 @@ public class AnagramSolver {
         }
     }
 
+    public LetterInventory root(String chosen, LetterInventory lettersToUse){
+        return lettersToUse = lettersToUse.subtract(new LetterInventory(chosen));
+    }
+
+    public boolean accept (){
+        return true;
+    }
+
+    public String first (String chosen, LetterInventory lettersToUse){
+        return "something";
+    }
+
     /**
      * Extract words found from the given String into a Stack
      * @param s         String to Extract word
      */
-    private Set<String> extractWords(String s){
+    private Set<String> allAnagramsOf(String s){
         LetterInventory sLi = new LetterInventory(s);
 
         Set<String> sWs = new LinkedHashSet<String>();
@@ -69,34 +81,31 @@ public class AnagramSolver {
         return sWs;
     }
 
-    public LetterInventory root(String chosen, LetterInventory lettersToUse){
-        return lettersToUse = lettersToUse.subtract(new LetterInventory(chosen));
+    private Set<String> anagramsOf (String s){
+        LetterInventory sLi = new LetterInventory(s);
+
+        Set<String> sWs = new LinkedHashSet<String>();
+
+        for (String word : dictionary) {
+            // Extract a Letter inventory from word
+            LetterInventory wordLi = new LetterInventory(word);
+            // Extract a Letter inventory of letters not in passed string
+            LetterInventory pLi = sLi.subtract(wordLi);
+            // If extracted inventory is not null || the subtraction was a success
+            if (pLi != null){
+                sWs.add(word);
+            }
+        }
+
+        return sWs;
     }
 
-    public boolean accept (){
-        return true;
-    }
-
-    public String first (String chosen, LetterInventory lettersToUse){
-        return "something";
-    }
 
     public void print(String s, int max) {
         if(anagramDictionary.containsKey(s)){
-            if (!s.isEmpty()){
-                //Recursively pullout the anagrams here!!
-                Set<String> choices = anagramDictionary.get(s);
-
-                LetterInventory lettersToUse = new LetterInventory(s);
-
-                LetterInventory chosen = new LetterInventory(choices.iterator().next());
-
-                lettersToUse = lettersToUse.subtract(chosen);
-
-                print(lettersToUse.toString(), max);
-            }
+            debugLog(anagramDictionary.get(s));
         } else{
-            anagramDictionary.put(s,extractWords(s));
+            anagramDictionary.put(s,allAnagramsOf(s));
 
             print (s,max);
         }
