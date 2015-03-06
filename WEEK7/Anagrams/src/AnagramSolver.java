@@ -25,8 +25,9 @@ import java.util.*;
 public class AnagramSolver {
     private List<String> dictionary;
     // anagrams of queried words, Scalable
-    private Map<String, Set<String>> anagramDictionary = new HashMap<String, Set<String>>();
-
+    private Map<LetterInventory, List<String>> anagramDictionary =
+            new HashMap<LetterInventory, List<String>>();
+    
     /**
      * Constructor, given a list, Initialize the dictionary
      * @param dictionary List of words
@@ -37,6 +38,27 @@ public class AnagramSolver {
             throw new IllegalArgumentException("Dictionary is Empty!");
         } else {
             this.dictionary = dictionary;
+
+            prepareAnagramDictionary();
+
+            debugLog(anagramDictionary);
+        }
+    }
+
+    private void prepareAnagramDictionary(){
+        for (String word : dictionary) {
+            // Extract a Letter inventory from word
+            LetterInventory key = new LetterInventory(word);
+
+            if (anagramDictionary.containsKey(key)){
+                anagramDictionary.get(key).add(word);
+            } else {
+                List<String> values = new ArrayList<String>();
+
+                values.add(word);
+
+                anagramDictionary.put(key,values);
+            }
         }
     }
 
@@ -46,68 +68,54 @@ public class AnagramSolver {
         }
     }
 
-    public LetterInventory root(String chosen, LetterInventory lettersToUse){
-        return lettersToUse = lettersToUse.subtract(new LetterInventory(chosen));
+    /**
+     * Extract words found from the given String into a Stack
+     * @param sLi         String to Extract word
+     */
+    private List<String> allAnagramsOf(LetterInventory sLi){
+        List<String> sWs = new ArrayList<String>();
+
+        for (String word : dictionary) {
+            // Extract a Letter inventory from word
+            LetterInventory wordLi = new LetterInventory(word);
+            // Extract a Letter inventory of letters not in passed string
+            LetterInventory pLi = sLi.subtract(wordLi);
+            // If extracted inventory is not null || the subtraction was a success
+            if (pLi != null){
+                sWs.add(word);
+            }
+        }
+
+        return sWs;
     }
 
-    public boolean accept (){
-        return true;
+    private void anagramsOf (LetterInventory sLi){
+
+
     }
 
-    public String first (String chosen, LetterInventory lettersToUse){
-        return "something";
+    private void printStack (Stack<String> ans, int max){
+
     }
 
     /**
-     * Extract words found from the given String into a Stack
-     * @param s         String to Extract word
+     * Print anagrams set of a given words. Each set is
+     * restricted to a maximum word.
+     * @param s                             String to search for anagram
+     * @param max                           Maximum words for each anagram series
+     * @throws IllegalArgumentException     If max is smaller than 0
      */
-    private Set<String> allAnagramsOf(String s){
-        LetterInventory sLi = new LetterInventory(s);
-
-        Set<String> sWs = new LinkedHashSet<String>();
-
-        for (String word : dictionary) {
-            // Extract a Letter inventory from word
-            LetterInventory wordLi = new LetterInventory(word);
-            // Extract a Letter inventory of letters not in passed string
-            LetterInventory pLi = sLi.subtract(wordLi);
-            // If extracted inventory is not null || the subtraction was a success
-            if (pLi != null){
-                sWs.add(word);
-            }
-        }
-
-        return sWs;
-    }
-
-    private Set<String> anagramsOf (String s){
-        LetterInventory sLi = new LetterInventory(s);
-
-        Set<String> sWs = new LinkedHashSet<String>();
-
-        for (String word : dictionary) {
-            // Extract a Letter inventory from word
-            LetterInventory wordLi = new LetterInventory(word);
-            // Extract a Letter inventory of letters not in passed string
-            LetterInventory pLi = sLi.subtract(wordLi);
-            // If extracted inventory is not null || the subtraction was a success
-            if (pLi != null){
-                sWs.add(word);
-            }
-        }
-
-        return sWs;
-    }
-
-
     public void print(String s, int max) {
-        if(anagramDictionary.containsKey(s)){
-            debugLog(anagramDictionary.get(s));
-        } else{
-            anagramDictionary.put(s,allAnagramsOf(s));
+        if (max < 0){
+            throw new IllegalArgumentException("Max < 0");
+        } else {
+            LetterInventory sLi = new LetterInventory(s);
 
-            print (s,max);
+            List<String> sLs = allAnagramsOf(sLi);
+
+            debugLog(sLs);
+
+            debugLog(sLi);
         }
     }
 }
