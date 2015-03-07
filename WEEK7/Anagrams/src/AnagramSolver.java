@@ -99,29 +99,32 @@ public class AnagramSolver {
     }
 
 
-    private void printStack (Stack<String> out, LetterInventory root, LetterInventory key, int max){
-        if (out.size() < max){
+    private void printStack (Stack<String> out, LetterInventory root, List<LetterInventory> choices, int max){
+        if (root != null) {
+            debugLog("Letters to use: " + root);
 
-            List<String> choiceList = anagramDictionary.get(key.toString());
+            debugLog("Choices: " + choices);
 
-            debugLog ("Choice List is " + choiceList);
+            debugLog("Chosen: " + out);
+            for (LetterInventory choice : choices) {
 
-            if (choiceList != null) {
-                for (String choice : choiceList) {
-                    LetterInventory choiceLi = new LetterInventory(choice);
+                LetterInventory leftOverLetters = root.subtract(choice);
 
-                    LetterInventory leftOverLi = key.subtract(choiceLi);
-
-                    out.push(choice);
-
-                    if (!leftOverLi.isEmpty()){
-                        printStack(out, root, leftOverLi, max);
-                    } else if (leftOverLi.size() == 0 && (max == 0 || out.size() == max) ){
-                        debugLog(out);
-                    }
+                List<String> words = anagramDictionary.get(choice.toString());
+                for (String word : words) {
+                    out.push(word);
+                    printStack(out, leftOverLetters, choices, max);
                 }
+//                out.push(choice);
+//
+//                if (!leftOverLetters.isEmpty()) {
+//                    printStack(out, leftOverLetters, choices, max);
+//                } else if (leftOverLetters.size() == 0 && (max == 0 || out.size() == max)) {
+//                    debugLog(out);
+//                }
             }
         }
+
     }
 
     /**
@@ -135,21 +138,19 @@ public class AnagramSolver {
         if (max < 0){
             throw new IllegalArgumentException("Max < 0");
         } else {
-            LetterInventory sLi = new LetterInventory(s);
+            LetterInventory lettersToUse = new LetterInventory(s);
 
-            debugLog(sLi);
+            debugLog(lettersToUse);
 
             // Implement it as a list of Li instead, and traverse through that list.
-            List<LetterInventory> sLs = anagramsOf(sLi);
+            List<LetterInventory> choices = anagramsOf(lettersToUse);
 
+            debugLog("Choices are: " + choices);
 
-            debugLog("Choices are: " + sLs);
+            Stack<String> answerStack = new Stack<String>();
 
-            for (LetterInventory sLsLi : sLs) {
-                Stack<String> answerStack = new Stack<String>();
-                //debugLog("LI in process is " + sLsLi);
-                printStack(answerStack, sLi, sLsLi, max);
-            }
+            printStack(answerStack, lettersToUse, choices, max);
+
         }
     }
 
