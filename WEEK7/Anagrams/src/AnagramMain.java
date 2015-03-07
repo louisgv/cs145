@@ -24,7 +24,7 @@ public class AnagramMain {
 
         String phrase = "george bush";
 
-        solver.print(phrase, 0);
+        solver.print(phrase, 2);
     }
 
     void firstMain() throws FileNotFoundException {

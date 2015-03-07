@@ -25,9 +25,9 @@ import java.util.*;
 public class AnagramSolver {
     private List<String> dictionary;
     // anagrams of queried words, Scalable
-    private Map<LetterInventory, List<String>> anagramDictionary =
-            new HashMap<LetterInventory, List<String>>();
-    
+    private Map<String, List<String>> anagramDictionary =
+            new HashMap<String, List<String>>();
+
     /**
      * Constructor, given a list, Initialize the dictionary
      * @param dictionary List of words
@@ -40,8 +40,6 @@ public class AnagramSolver {
             this.dictionary = dictionary;
 
             prepareAnagramDictionary();
-
-            debugLog(anagramDictionary);
         }
     }
 
@@ -50,21 +48,15 @@ public class AnagramSolver {
             // Extract a Letter inventory from word
             LetterInventory key = new LetterInventory(word);
 
-            if (anagramDictionary.containsKey(key)){
-                anagramDictionary.get(key).add(word);
+            if (anagramDictionary.containsKey(key.toString())){
+                anagramDictionary.get(key.toString()).add(word);
             } else {
                 List<String> values = new ArrayList<String>();
 
                 values.add(word);
 
-                anagramDictionary.put(key,values);
+                anagramDictionary.put(key.toString(),values);
             }
-        }
-    }
-
-    public void debugLog(Object o){
-        if(o!= null) {
-            System.out.println(o.toString());
         }
     }
 
@@ -89,13 +81,45 @@ public class AnagramSolver {
         return sWs;
     }
 
-    private void anagramsOf (LetterInventory sLi){
+    private List<LetterInventory> anagramsOf(LetterInventory sLi){
+        List<LetterInventory> sLiLiL = new ArrayList<LetterInventory>();
 
+        for (String word : dictionary) {
+            // Extract a Letter inventory from word
+            LetterInventory wordLi = new LetterInventory(word);
+            // Extract a Letter inventory of letters not in passed string
+            LetterInventory pLi = sLi.subtract(wordLi);
+            // If extracted inventory is not null || the subtraction was a success
+            if (pLi != null){
+                sLiLiL.add(wordLi);
+            }
+        }
 
+        return sLiLiL;
     }
 
-    private void printStack (Stack<String> ans, int max){
 
+    private void printStack (Stack<String> out, LetterInventory key, int max){
+        if (out.size() < max){
+
+            List<String> choiceList = anagramDictionary.get(key);
+
+            if (choiceList != null) {
+                for (String choice : choiceList) {
+                    LetterInventory choiceLi = new LetterInventory(choice);
+
+                    LetterInventory leftOverLi = key.subtract(choiceLi);
+
+                    out.push(choice);
+
+                    if (leftOverLi.isEmpty()) {
+                        debugLog(out);
+                    } else {
+                        printStack(out, leftOverLi, max);
+                    }
+                }
+            }
+        }
     }
 
     /**
@@ -111,28 +135,38 @@ public class AnagramSolver {
         } else {
             LetterInventory sLi = new LetterInventory(s);
 
+            // Implement it as a list of Li instead, and traverse through that list.
+            List<LetterInventory> sLs = anagramsOf(sLi);
+
+//            debugLog(sLs);
             List<String> sLs = allAnagramsOf(sLi);
 
-            debugLog(sLs);
+            Stack<String> answerStack = new Stack<String>();
 
-            debugLog(sLi);
+            debugLog(anagramDictionary);
+
+            debugLog(anagramDictionary.keySet());
+
+            debugLog(sLs.get(0));
+
+            if (anagramDictionary.containsKey(sLs.get(0))) {
+                debugLog("It contains it!");
+
+                debugLog(anagramDictionary.get(sLs.get(0)));
+            } else {
+                debugLog("It is Null!");
+            }
+            for (LetterInventory sLsLi : sLs)
+                printStack(answerStack, sLsLi, max);
+
+        }
+    }
+
+    private void debugLog(Object o){
+        if(o!= null) {
+            System.out.println(o.toString());
         }
     }
 }
 
-//    procedure bt(c)
-//        if reject(P,c) then return
-//        if accept(P,c) then output(P,c)
-//        s ← first(P,c)
-//        while s ≠ Λ do
-//        bt(s)
-//        s ← next(P,s)
-
-//      Partial candidate c is: The First word!
-
-//        root(P): return the partial candidate at the root of the search tree.
-//        reject(P,c): return true only if the partial candidate c is not worth completing.
-//        accept(P,c): return true if c is a solution of P, and false otherwise.
-//        first(P,c): generate the first extension of candidate c.
-//        next(P,s): generate the next alternative extension of a candidate, after the extension s.
-//        output(P,c): use the solution c of P, as appropriate to the application.
+//stackoverflow.com/questions/12477339/finding-anagrams-for-a-given-word
