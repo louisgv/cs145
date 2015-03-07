@@ -1,9 +1,7 @@
-import sun.security.ssl.Debug;
-
 import java.util.*;
 
 /**
- * This class Searchs for Anagrams of a Word given a Dictionary.
+ * This class Search for Anagrams of a Word given a Dictionary.
  *
  *  It first store a dictionary for reference.
  *  When Given a word, the print function finds in the dictionary
@@ -50,7 +48,7 @@ public class AnagramSolver {
 
             if (anagramDictionary.containsKey(key.toString())){
                 anagramDictionary.get(key.toString()).add(word);
-            } else {
+            } else  {
                 List<String> values = new ArrayList<String>();
 
                 values.add(word);
@@ -58,27 +56,6 @@ public class AnagramSolver {
                 anagramDictionary.put(key.toString(),values);
             }
         }
-    }
-
-    /**
-     * Extract words found from the given String into a Stack
-     * @param sLi         String to Extract word
-     */
-    private List<String> allAnagramsOf(LetterInventory sLi){
-        List<String> sWs = new ArrayList<String>();
-
-        for (String word : dictionary) {
-            // Extract a Letter inventory from word
-            LetterInventory wordLi = new LetterInventory(word);
-            // Extract a Letter inventory of letters not in passed string
-            LetterInventory pLi = sLi.subtract(wordLi);
-            // If extracted inventory is not null || the subtraction was a success
-            if (pLi != null){
-                sWs.add(word);
-            }
-        }
-
-        return sWs;
     }
 
     private List<LetterInventory> anagramsOf(LetterInventory sLi){
@@ -101,27 +78,32 @@ public class AnagramSolver {
 
     private void printStack (Stack<String> out, LetterInventory root, List<LetterInventory> choices, int max){
         if (root != null) {
-            debugLog("Letters to use: " + root);
 
-            debugLog("Choices: " + choices);
-
-            debugLog("Chosen: " + out);
-            for (LetterInventory choice : choices) {
-
-                LetterInventory leftOverLetters = root.subtract(choice);
-
-                List<String> words = anagramDictionary.get(choice.toString());
-                for (String word : words) {
-                    out.push(word);
-                    printStack(out, leftOverLetters, choices, max);
-                }
-//                out.push(choice);
+//	        debugLog("Letters to use: " + root);
 //
-//                if (!leftOverLetters.isEmpty()) {
-//                    printStack(out, leftOverLetters, choices, max);
-//                } else if (leftOverLetters.size() == 0 && (max == 0 || out.size() == max)) {
-//                    debugLog(out);
-//                }
+//          debugLog("Choices: " + choices);
+//
+//          debugLog("Chosen: " + out);
+
+	        if (root.isEmpty()){
+
+		        debugLog("Chosen: " + out);
+
+	        } else {
+		        for (LetterInventory choice : choices) {
+
+			        LetterInventory leftOverLetters = root.subtract(choice);
+
+			        List<String> words = anagramDictionary.get(choice.toString());
+
+			        for (String word : words) {
+				        out.push(word);
+
+				        printStack(out, leftOverLetters, choices, max);
+
+				        out.pop();
+			        }
+		        }
             }
         }
 
