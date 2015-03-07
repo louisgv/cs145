@@ -99,10 +99,12 @@ public class AnagramSolver {
     }
 
 
-    private void printStack (Stack<String> out, LetterInventory key, int max){
+    private void printStack (Stack<String> out, LetterInventory root, LetterInventory key, int max){
         if (out.size() < max){
 
-            List<String> choiceList = anagramDictionary.get(key);
+            List<String> choiceList = anagramDictionary.get(key.toString());
+
+            debugLog ("Choice List is " + choiceList);
 
             if (choiceList != null) {
                 for (String choice : choiceList) {
@@ -112,10 +114,10 @@ public class AnagramSolver {
 
                     out.push(choice);
 
-                    if (leftOverLi.isEmpty()) {
+                    if (!leftOverLi.isEmpty()){
+                        printStack(out, root, leftOverLi, max);
+                    } else if (leftOverLi.size() == 0 && (max == 0 || out.size() == max) ){
                         debugLog(out);
-                    } else {
-                        printStack(out, leftOverLi, max);
                     }
                 }
             }
@@ -135,30 +137,19 @@ public class AnagramSolver {
         } else {
             LetterInventory sLi = new LetterInventory(s);
 
+            debugLog(sLi);
+
             // Implement it as a list of Li instead, and traverse through that list.
             List<LetterInventory> sLs = anagramsOf(sLi);
 
-//            debugLog(sLs);
-            List<String> sLs = allAnagramsOf(sLi);
 
-            Stack<String> answerStack = new Stack<String>();
+            debugLog("Choices are: " + sLs);
 
-            debugLog(anagramDictionary);
-
-            debugLog(anagramDictionary.keySet());
-
-            debugLog(sLs.get(0));
-
-            if (anagramDictionary.containsKey(sLs.get(0))) {
-                debugLog("It contains it!");
-
-                debugLog(anagramDictionary.get(sLs.get(0)));
-            } else {
-                debugLog("It is Null!");
+            for (LetterInventory sLsLi : sLs) {
+                Stack<String> answerStack = new Stack<String>();
+                //debugLog("LI in process is " + sLsLi);
+                printStack(answerStack, sLi, sLsLi, max);
             }
-            for (LetterInventory sLsLi : sLs)
-                printStack(answerStack, sLsLi, max);
-
         }
     }
 

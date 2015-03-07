@@ -4,7 +4,6 @@
     <list default="true" id="062b0e03-7429-4320-802b-851294929f62" name="Default" comment="Initialize Anagram!">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AnagramMain.java" afterPath="$PROJECT_DIR$/src/AnagramMain.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AnagramSolver.java" afterPath="$PROJECT_DIR$/src/AnagramSolver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Anagrams.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,8 +31,28 @@
       <file leaf-file-name="AnagramMain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AnagramMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="127" max-vertical-offset="1054">
-              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
+              <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dict2.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dict2.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3621" max-vertical-offset="66861">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dict1.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dict1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -52,13 +71,13 @@
       <file leaf-file-name="AnagramSolver.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AnagramSolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4047619" vertical-offset="2176" max-vertical-offset="3009">
-              <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+            <state vertical-scroll-proportion="1.5493197" vertical-offset="1554" max-vertical-offset="2856">
+              <caret line="145" column="44" selection-start-line="145" selection-start-column="44" selection-end-line="145" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#857#879#0" expanded="true" />
                 <element signature="e#2724#2741#0" expanded="true" />
-                <element signature="e#4746#4754#0" expanded="true" />
+                <element signature="e#4950#4958#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -540,7 +559,7 @@
             <element signature="imports" expanded="true" />
             <element signature="e#857#879#0" expanded="true" />
             <element signature="e#2724#2741#0" expanded="true" />
-            <element signature="e#4746#4754#0" expanded="true" />
+            <element signature="e#4950#4958#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -569,7 +588,7 @@
             <element signature="imports" expanded="true" />
             <element signature="e#857#879#0" expanded="true" />
             <element signature="e#2724#2741#0" expanded="true" />
-            <element signature="e#4746#4754#0" expanded="true" />
+            <element signature="e#4950#4958#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -598,7 +617,7 @@
             <element signature="imports" expanded="true" />
             <element signature="e#857#879#0" expanded="true" />
             <element signature="e#2724#2741#0" expanded="true" />
-            <element signature="e#4746#4754#0" expanded="true" />
+            <element signature="e#4950#4958#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -627,7 +646,7 @@
             <element signature="imports" expanded="true" />
             <element signature="e#857#879#0" expanded="true" />
             <element signature="e#2724#2741#0" expanded="true" />
-            <element signature="e#4746#4754#0" expanded="true" />
+            <element signature="e#4950#4958#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -648,7 +667,7 @@
             <element signature="imports" expanded="true" />
             <element signature="e#857#879#0" expanded="true" />
             <element signature="e#2724#2741#0" expanded="true" />
-            <element signature="e#4746#4754#0" expanded="true" />
+            <element signature="e#4950#4958#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -669,7 +688,7 @@
             <element signature="imports" expanded="true" />
             <element signature="e#857#879#0" expanded="true" />
             <element signature="e#2724#2741#0" expanded="true" />
-            <element signature="e#4746#4754#0" expanded="true" />
+            <element signature="e#4950#4958#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -725,23 +744,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dict1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dict2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="66861">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/AnagramMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="127" max-vertical-offset="1054">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
+          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AnagramSolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4047619" vertical-offset="2176" max-vertical-offset="3009">
-          <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+        <state vertical-scroll-proportion="1.5493197" vertical-offset="1554" max-vertical-offset="2856">
+          <caret line="145" column="44" selection-start-line="145" selection-start-column="44" selection-end-line="145" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#857#879#0" expanded="true" />
             <element signature="e#2724#2741#0" expanded="true" />
-            <element signature="e#4746#4754#0" expanded="true" />
+            <element signature="e#4950#4958#0" expanded="true" />
           </folding>
         </state>
       </provider>

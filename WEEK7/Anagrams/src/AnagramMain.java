@@ -11,7 +11,7 @@ import java.util.*;
 
 public class AnagramMain {
     public static void main(String[] args) throws FileNotFoundException {
-        Scanner input = new Scanner(new File("dict1.txt"));
+        Scanner input = new Scanner(new File("dict3.txt"));
 
         List<String> dictionary = new ArrayList<String>();
 
@@ -22,9 +22,9 @@ public class AnagramMain {
 
         AnagramSolver solver = new AnagramSolver(dictionary2);
 
-        String phrase = "george bush";
+        String phrase = "barbara bush";
 
-        solver.print(phrase, 2);
+        solver.print(phrase, 3);
     }
 
     void firstMain() throws FileNotFoundException {
