@@ -69,7 +69,8 @@ public class AnagramSolver {
     }
 
 	/**
-	 * Extract an anagram list of the given letter inventory
+	 * Extract a Letter Inventory list from the given letter inventory
+	 * Each element in the list serves as key for Anagram Dictionary map
 	 */
     private List<LetterInventory> allAnagramsOf(LetterInventory sLi){
         List<LetterInventory> anagramList = new ArrayList<LetterInventory>();
@@ -158,4 +159,4 @@ public class AnagramSolver {
             System.out.println(o.toString());
         }
     }
-}
+} //IS29
