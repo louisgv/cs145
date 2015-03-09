@@ -24,8 +24,7 @@ import java.util.*;
 public class AnagramSolver {
     private List<String> dictionary;
 
-    private Map<String, List<String>> anagramDictionary =
-            new HashMap<String, List<String>>();
+    private Map<String, List<String>> anagramDictionary;
 
     /**
      * Constructor, given a list, does the following:
@@ -52,6 +51,8 @@ public class AnagramSolver {
 	 * into an Anagram dictionary
 	 */
     private void prepareAnagramDictionary(){
+        anagramDictionary = new HashMap<String, List<String>>();
+
         for (String word : dictionary) {
             // Extract a Letter Inventory for each word
             LetterInventory key = new LetterInventory(word);
@@ -90,8 +91,7 @@ public class AnagramSolver {
     }
 
 	/**
-	 * Recursively print all of the anagrams that
-	 * forms the first passed letter inventory.
+	 * Recursively print all of the anagrams
 	 * @param out           Stack of Chosen Strings
 	 * @param root          Letters to use
 	 * @param choices       Choices available
