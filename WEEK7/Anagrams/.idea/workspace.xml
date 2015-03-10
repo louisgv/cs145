@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="062b0e03-7429-4320-802b-851294929f62" name="Default" comment="Initialize Anagram!">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WEEK8/TwentyQuestions/src/QuestionNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WEEK8/TwentyQuestions/src/QuestionTree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WEEK8/TwentyQuestions/src/QuestionTree.java" afterPath="$PROJECT_DIR$/../../WEEK8/TwentyQuestions/src/QuestionTree.java" />
     </list>
     <ignored path="Anagrams.iws" />
     <ignored path=".idea/workspace.xml" />
