@@ -1,0 +1,5 @@
+Q:Does it use the Force?
+A:Jedi
+Q:Is it metal?
+A:droid
+A:hobbit

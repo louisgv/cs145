@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="062b0e03-7429-4320-802b-851294929f62" name="Default" comment="Initialize Anagram!">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AnagramMain.java" afterPath="$PROJECT_DIR$/src/AnagramMain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AnagramSolver.java" afterPath="$PROJECT_DIR$/src/AnagramSolver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WEEK8/TwentyQuestions/src/QuestionNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WEEK8/TwentyQuestions/src/QuestionTree.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Anagrams.iws" />
@@ -42,8 +42,8 @@
       <file leaf-file-name="AnagramSolver.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AnagramSolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.78988767" vertical-offset="1949" max-vertical-offset="2839">
-              <caret line="156" column="36" selection-start-line="156" selection-start-column="17" selection-end-line="156" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.03935185" vertical-offset="0" max-vertical-offset="2839">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="22" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -105,8 +105,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1300" />
-    <option name="height" value="1026" />
+    <option name="width" value="1296" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -150,6 +150,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
       <pane id="Scope">
         <subPane subId="Changed Files" />
         <subPane subId="Project Files" />
@@ -188,9 +191,6 @@
             </PATH_ELEMENT>
           </PATH>
         </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane />
       </pane>
       <pane id="AndroidView" />
     </panes>
@@ -402,7 +402,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1300" height="1026" extended-state="1" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -416,7 +416,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1876947" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967575" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -858,8 +858,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AnagramSolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78988767" vertical-offset="1949" max-vertical-offset="2839">
-          <caret line="156" column="36" selection-start-line="156" selection-start-column="17" selection-end-line="156" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.03935185" vertical-offset="0" max-vertical-offset="2839">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="22" selection-end-column="3" />
           <folding />
         </state>
       </provider>
