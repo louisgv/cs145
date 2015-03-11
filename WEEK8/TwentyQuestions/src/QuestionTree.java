@@ -109,7 +109,7 @@ public class QuestionTree {
     }
 
     public void load (Scanner input){
-        load(input,root = null);
+//        load(input, root);
     }
 
     private void load (Scanner input, QuestionNode node){
@@ -117,9 +117,13 @@ public class QuestionTree {
             String[] data = input.nextLine().split(":",2);
 
             if (data[0].equals("A")){
-                node = new QuestionNode (data[1]);
+                node = new QuestionNode(data[1]);
             } else {
                 node = new QuestionNode (data[1]);
+
+                load (input, node.yes);
+
+                load (input, node.no);
             }
         }
     }
