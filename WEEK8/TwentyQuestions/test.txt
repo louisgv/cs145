@@ -1,0 +1,3 @@
+Q:Does it drive?
+A:car
+A:computer
