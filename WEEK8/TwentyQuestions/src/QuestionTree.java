@@ -92,6 +92,10 @@ public class QuestionTree {
         }
     }
 
+    /**
+     * Invoke the Save Recursion
+     * @param output        Output object to Stream data
+     */
     public void save (PrintStream output){
         save(output, root);
     }
@@ -108,11 +112,17 @@ public class QuestionTree {
         }
     }
 
+    /**
+     * Invoke the Load recursion
+     * @param input         Scanner Object to get Data
+     */
     public void load (Scanner input){
-//        load(input, root);
+        root = loadedNode (input);
     }
 
-    private void load (Scanner input, QuestionNode node){
+    private QuestionNode loadedNode (Scanner input){
+        QuestionNode node = null;
+
         if (input.hasNext()){
             String[] data = input.nextLine().split(":",2);
 
@@ -121,19 +131,26 @@ public class QuestionTree {
             } else {
                 node = new QuestionNode (data[1]);
 
-                load (input, node.yes);
+                node.yes = loadedNode(input);
 
-                load (input, node.no);
+                node.no = loadedNode (input);
             }
         }
+
+        return node;
     }
 
+    /**
+     * @return      How many games had been played
+     */
     public int totalGames(){
         return games;
     }
 
+    /**
+     * @return      How many games the machine had won
+     */
     public int gamesWon(){
         return wins;
     }
-
 }
