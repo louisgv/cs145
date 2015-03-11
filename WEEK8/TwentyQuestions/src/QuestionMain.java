@@ -91,7 +91,8 @@ public class QuestionMain implements UserInterface {
             print(SAVE_LOAD_FILENAME_MESSAGE);
             String filename = nextLine();
             try {
-                Scanner in = new Scanner(new File(filename));
+//                Scanner in = new Scanner(new File(filename));
+                Scanner in = new Scanner(new File("question1.txt"));
                 tree.load(in);
             } catch (FileNotFoundException e) {
                 System.out.println("Error: " + e.getMessage());
@@ -106,7 +107,8 @@ public class QuestionMain implements UserInterface {
             print(SAVE_LOAD_FILENAME_MESSAGE);
             String filename = nextLine();
             try {
-                PrintStream out = new PrintStream(new File(filename));
+//                PrintStream out = new PrintStream(new File(filename));
+                PrintStream out = new PrintStream(new File("test.txt"));
                 tree.save(out);
                 out.close();
             } catch (FileNotFoundException e) {

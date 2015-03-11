@@ -1,15 +1,15 @@
 
 /**
- * This class Models a leaf OR branch of a Question tree.
+ * This class Models both an Answer OR Question node of a Question tree.
  *
- *  It first store a dictionary for word reference.
- *  Then pre-process data from the dictionary, forming an
- *  Anagram Dictionary for faster anagram look-up.
+ * The data field was restricted in order to distinguish
+ * between a Question node and an Answer node.
  *
- *  When Given a word, the print function looks for
- *  all anagrams from the Dictionary
- *  and print anagrams from the Anagram Dictionary
- * *
+ * The Constructor with only data as variable generates
+ * an Answer Node whereas the other generates
+ * a Question Node which spans to two
+ * other Nodes.
+ *
  * <ul>
  * <li> Name: QuestionNode.java
  * <li> Description: Question Node
@@ -22,16 +22,32 @@
  */
 public class QuestionNode {
 
-    public QuestionNode yes;     // Yes == Hai in Jap
+    /**
+     *  Pointer to the Yes node
+     */
+    public QuestionNode yes;
 
-    public QuestionNode no;      // No == Iee in Jap
+    /**
+     *  Pointer to the No node
+     */
+    public QuestionNode no;
 
     private String data;
 
+    /**
+     *  Constructor, Initialize an Answer Node
+     * @param data          Answer issues to user
+     */
     public QuestionNode(String data){
         this(null, null, data);
     }
 
+    /**
+     *  Constructor, Initialize a Question Node
+     * @param yes            Yes Node answer
+     * @param no             No Node answer
+     * @param data           Question to Ask
+     */
     public QuestionNode(QuestionNode yes,
                         QuestionNode no,
                         String data){
@@ -40,11 +56,17 @@ public class QuestionNode {
         this.data = data;
     }
 
+    /**
+     * @return              True if the node doesn't have any child, False otherwise
+     */
     public boolean isAnswer(){
         return yes == null && no == null;
     }
 
+    /**
+     * @return              Data of the node, either a question or an answer
+     */
     public String toString(){
         return data;
     }
-}
+}//IS29
