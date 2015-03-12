@@ -70,20 +70,20 @@ public class AnagramSolver {
     }
 
 	/**
-	 * Extract a Letter Inventory list from the given letter inventory
+	 * Extract a String list from the given letter inventory
 	 * Each element in the list serves as key for Anagram Dictionary map
 	 */
-    private List<LetterInventory> allAnagramsOf(LetterInventory sLi){
-        List<LetterInventory> anagramList = new ArrayList<LetterInventory>();
+    private List<String> allAnagramsOf(LetterInventory sLi){
+        List<String> anagramList = new ArrayList<String>();
 
         for (String word : dictionary) {
 	        // Extract a Letter Inventory for each word
             LetterInventory wordLi = new LetterInventory(word);
             // Extract a Letter inventory of leftover letters
             LetterInventory leftOverLi = sLi.subtract(wordLi);
-            // If leftover words is not negative, store the word
-            if (leftOverLi != null){
-                anagramList.add(wordLi);
+            // If leftover words is unknown, store the word letter inventory
+            if (leftOverLi != null && !anagramList.contains(wordLi.toString())){
+                anagramList.add(wordLi.toString());
             }
         }
 
@@ -98,26 +98,26 @@ public class AnagramSolver {
 	 * @param max           Maximum size of Chosen String Stack
 	 */
     private void printAnagrams(Stack<String> out, LetterInventory root,
-                               List<LetterInventory> choices,
+                               List<String> choices,
                                int max){
 	    // The recursion continues if there are letters to use AND
 	    // max is 0 OR size of Stack is less than or equal to max
         if (root!=null && (out.size()<=max||max==0)){
-			/*
 			// Useful debug lines, use for Small test only!
-	        debugLog("Letters to use: " + root);
-            debugLog("Choices: " + choices);
-	        debugLog("Chosen: " + out);
-			*/
+	        //debugLog("Letters to use: " + root);
+            //debugLog("Choices: " + choices);
+            //debugLog("Chosen: " + out);
+
 			// If Letters to use is Empty AND max is 0 OR size of Stack equals max:
 	        if (root.isEmpty() && (out.size()==max||max==0)){
 		        debugLog(out);
 	        } else {
-		        for (LetterInventory choice : choices) {
-					// For each choice, get a set of leftover letters
-			        LetterInventory leftOverLi = root.subtract(choice);
+		        for (String choice : choices) {
+                    LetterInventory choiceLi = new LetterInventory(choice);
+                    // For each choice, get a set of leftover letters
+			        LetterInventory leftOverLi = root.subtract(choiceLi);
 					// Get the list of word mapped to each choice
-			        List<String> words = anagramDictionary.get(choice.toString());
+			        List<String> words = anagramDictionary.get(choice);
 					// For each word in the word list:
 			        for (String word : words) {
 				        out.push(word);
@@ -144,7 +144,7 @@ public class AnagramSolver {
         } else {
             LetterInventory lettersToUse = new LetterInventory(s);
 			// Extract a list of keys from the word
-            List<LetterInventory> choices = allAnagramsOf(lettersToUse);
+            List<String> choices = allAnagramsOf(lettersToUse);
 
             //debugLog("Choices are: " + choices);
 

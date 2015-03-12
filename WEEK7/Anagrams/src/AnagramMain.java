@@ -11,23 +11,24 @@ import java.util.*;
 
 public class AnagramMain {
     public static void main(String[] args) throws FileNotFoundException {
-        Scanner input = new Scanner(new File("dict4.txt"));
-
-        List<String> dictionary = new ArrayList<String>();
-
-        while (input.hasNextLine())
-            dictionary.add(input.nextLine());
-
-        List<String> dictionary2 = Collections.unmodifiableList(dictionary);
-
-        AnagramSolver solver = new AnagramSolver(dictionary2);
-
-        String phrase = "george Bush";
-
-        solver.print(phrase, 0);
+//        Scanner input = new Scanner(new File("dict4.txt"));
+//
+//        List<String> dictionary = new ArrayList<String>();
+//
+//        while (input.hasNextLine())
+//            dictionary.add(input.nextLine());
+//
+//        List<String> dictionary2 = Collections.unmodifiableList(dictionary);
+//
+//        AnagramSolver solver = new AnagramSolver(dictionary2);
+//
+//        String phrase = "george Bush";
+//
+//        solver.print(phrase, 0);
+        firstMain();
     }
 
-    void firstMain() throws FileNotFoundException {
+    static void firstMain() throws FileNotFoundException {
         System.out.println("Welcome to the cse143 anagram solver.");
         System.out.println();
 
