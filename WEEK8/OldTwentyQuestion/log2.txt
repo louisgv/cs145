@@ -1,0 +1,20 @@
+Welcome to the cse143 question program.
+
+Do you want to read in the previous tree? (y/n)? y
+
+Please think of an object for me to guess.
+Can it fly? (y/n)? y
+Does it have feathers? (y/n)? n
+Is it extinct? (y/n)? n
+Does it eat nuts? (y/n)? n
+Does it have fur? (y/n)? y
+Does it hang upside down? (y/n)? y
+Does it suck blood? (y/n)? y
+Is it really really big? (y/n)? n
+Does it hibernate? (y/n)? n
+Does it eat fruit? (y/n)? y
+Does it eat fruit AND suck blood? (y/n)? y
+Would your object happen to be vampire bat? (y/n)? y
+Great, I got it right!
+
+Do you want to go again? (y/n)? n

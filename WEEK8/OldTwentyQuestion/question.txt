@@ -1,0 +1,6 @@
+Q: 
+Is it orange?
+A: 
+computer
+A: 
+apple

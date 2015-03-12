@@ -1,0 +1,30 @@
+Welcome to the cse143 question program.
+
+Do you want to read in the previous tree? (y/n)? n
+
+Please think of an object for me to guess.
+Would your object happen to be computer? (y/n)? n
+What is the name of your object? dog
+Please give me a yes/no question that
+distinguishes between your object
+and mine--> Is it an animal?
+And what is the answer for your object? (y/n)? y
+
+Do you want to go again? (y/n)? y
+Please think of an object for me to guess.
+Is it an animal? (y/n)? y
+Would your object happen to be dog? (y/n)? n
+What is the name of your object? frog
+Please give me a yes/no question that
+distinguishes between your object
+and mine--> Does it hop?
+And what is the answer for your object? (y/n)? y
+
+Do you want to go again? (y/n)? y
+Please think of an object for me to guess.
+Is it an animal? (y/n)? y
+Does it hop? (y/n)? n
+Would your object happen to be dog? (y/n)? y
+Great, I got it right!
+
+Do you want to go again? (y/n)? n
