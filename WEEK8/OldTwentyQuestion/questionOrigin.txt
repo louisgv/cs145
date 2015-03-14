@@ -1,6 +1,6 @@
-Q:
+Q: 
 Is it orange?
-A:
+A: 
 computer
-A:
+A: 
 apple

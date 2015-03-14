@@ -7962,6 +7962,10 @@ A:
 flying fish
 Q:
 Does  it look like it''s praying?
+Q:
+Is it dead?
+A:
+Soul
 A:
 praying mantis
 Q:

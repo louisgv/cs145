@@ -1,10 +1,11 @@
 
 /**
- * This class Models both an Answer OR Question node of a Question tree.
+ * This class Models both an Answer OR a
+ * Question node of a
+ * Question tree.
  *
  * The data field was restricted in order to distinguish
  * between a Question node and an Answer node.
- *
  * The Constructor with only data as variable generates
  * an Answer Node whereas the other generates
  * a Question Node which spans to two
@@ -21,6 +22,7 @@
  * @version Winter 2015
  */
 public class QuestionNode {
+    private String data;
 
     /**
      *  Pointer to the Yes node
@@ -32,14 +34,12 @@ public class QuestionNode {
      */
     public QuestionNode no;
 
-    private String data;
-
     /**
      *  Constructor, Initialize an Answer Node
      * @param data          Answer issues to user
      */
     public QuestionNode(String data){
-        this(null, null, data);
+        this(data, null, null);
     }
 
     /**
@@ -48,12 +48,12 @@ public class QuestionNode {
      * @param no             No Node answer
      * @param data           Question to Ask
      */
-    public QuestionNode(QuestionNode yes,
-                        QuestionNode no,
-                        String data){
+    public QuestionNode(String data,
+                        QuestionNode yes,
+                        QuestionNode no){
+        this.data = data;
         this.yes = yes;
         this.no = no;
-        this.data = data;
     }
 
     /**

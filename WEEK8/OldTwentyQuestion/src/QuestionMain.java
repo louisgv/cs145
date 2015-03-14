@@ -9,7 +9,7 @@ import java.io.*;
 import java.util.*;
 
 public class QuestionMain {
-    public static final String QUESTION_FILE = "question.txt";
+    public static final String QUESTION_FILE = "bigquestion.txt";
 
     public static void main(String[] args) throws FileNotFoundException {
         System.out.println("Welcome to the cse143 question program.");
